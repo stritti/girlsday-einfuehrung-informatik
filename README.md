@@ -1,2 +1,2 @@
-# Girls'day - Einfuehrung in die Informatik
+# Girls'day - Einführung in die Informatik
 Einführung In die Informatik
