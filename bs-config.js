@@ -2,7 +2,7 @@
 module.exports = {
   "port": 3000,
   "server": {
-    "baseDir": ".",
+    "baseDir": "./output",
     routes: {
         "/node_modules": "node_modules"
     }

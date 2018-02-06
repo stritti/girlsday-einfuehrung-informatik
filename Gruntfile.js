@@ -134,17 +134,33 @@ module.exports = function(grunt) {
                                 }
                         }
                 },
+                browserSync: {
+                    dev: {
+                        bsFiles: {
+                            src : [
+                                'output/css/*.css',
+                                'output/js/*.js',
+                                'output/*.html'
+                            ]
+                        },
+                        options: {
+                            watchTask: true,
+                            server: './output'
+                        }
+                    }
+                }                
         });
 
         grunt.loadNpmTasks('grunt-contrib-clean');
         grunt.loadNpmTasks('grunt-contrib-copy');
         grunt.loadNpmTasks('grunt-contrib-watch');
+        grunt.loadNpmTasks('grunt-browser-sync');
         grunt.loadNpmTasks('grunt-grunticon');
         grunt.loadNpmTasks('grunt-svgmin');
         grunt.loadNpmTasks('grunt-embed');
         
 
-        grunt.registerTask('default', ['svgmin', 'grunticon:slides', 'copy:css', 'copy:impress', 'copy:images', 'embed:html', 'watch']);
+        grunt.registerTask('default', ['svgmin', 'grunticon:slides', 'copy:css', 'copy:impress', 'copy:images', 'embed:html', 'browserSync', 'watch']);
         grunt.registerTask('build', ['svgmin', 'grunticon:slides', 'copy:css', 'copy:impress', 'copy:images', 'embed:html']);
         grunt.registerTask('no_embedd', ['svgmin', 'grunticon:slides', 'copy:css', 'copy:impress','copy:images', 'copy:html']);
 };
