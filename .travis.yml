@@ -11,12 +11,6 @@ script:
 - npm run-script build 
 
 deploy:
-- provider: surge
-  skip_cleanup: true
-  project: "./"
-  domain: girlsday-informatik.surge.sh
-  on:
-    branch: master
 - provider: pages
   skip-cleanup: true
   local-dir: "./output/"
