@@ -2,6 +2,10 @@
 
 Präsentation in HTML: "Eine Einführung in die Informatik".
 
+[Präsentation starten!](https://stritti.github.io/girlsday-einfuehrung-informatik)
+
+Diese Präsentation ist Grundlage für den Girls' Day 2018.
+
 
 
 # Entwicklung
@@ -41,3 +45,4 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
 * Dankeschön an Microsoft, welches mit [MakeCode für micro:bit](https://makecode.microbit.org/) eine großartige Online IDE auf Blocks-basis zur Verfügung stellt.
   * Klasse, dass ich da auch bei der [Übersetzung ins Deutsche](https://makecode.com/translate) mithelfen konnte!
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
+* [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
