@@ -1,18 +1,4 @@
 /*
-  A common approach is to use googleapis.com to generate css for the webfonts you want to use.
-  The downside of this approach is that you have to be online. So below I have simply saved
-  the output of the googleapis url into a file. Then you of course also have to make sure
-  the webfonts are locally installed to make offline usage work. For Ubuntu (or Debian) I
-  successfully used the script from here to do that: 
-  http://www.webupd8.org/2011/01/automatically-install-all-google-web.html
-*/
-
-/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic|Cutive+Mono); */
-@import url(fonts.css);
-
-
-
-/*
     We display a fallback message for users with browsers that don't support
     all the features required by it. All of the content will be still fully 
     accessible for them, but some more advanced effects would be missing.
@@ -56,6 +42,20 @@ body {
     color: rgb(240, 240, 240);
 }
 
+.img-title { 
+    background-color: rgb(50, 50, 50);
+    color: #fff; 
+    display: inline;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+    opacity: .75;
+    
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
 /*
     Now let's style the presentation steps.
 */
@@ -64,7 +64,7 @@ body {
     position: relative;
     display: block;
 
-    width: 1200px;
+    width: 1024px;
     height: 700px;
     margin: 20px auto;
     padding: 40px 60px;
@@ -74,6 +74,34 @@ body {
     letter-spacing: 1px;
 
 }
+
+.step .right {
+    float: right;
+    margin-left:   40px;
+    margin-right:   0px;
+    margin-top:    20px;
+    margin-bottom: 20px;
+}
+.step .left {
+    float: left;
+    margin-right:  40px;
+    margin-left:    0px;
+    margin-top:    20px;
+    margin-bottom: 20px;
+}
+.step .top {
+    position: absolute;
+    top: 20px;
+    margin-bottom:  20px;
+    margin-top:      0px;    
+}
+.step .bottom {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom:   40px;
+    margin-top:     20px;    
+}
+
 /*
     Make inactive steps a little bit transparent.
 */
@@ -196,8 +224,6 @@ img.bg {
     width: auto;
     transition:  opacity 2s;
 }
-
-
 
 
 
