@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+- node
+
+install:
+- npm install
+
+before_script: 
+
+script:
+- npm run-script build 
+
+deploy:
+- provider: surge
+  skip_cleanup: true
+  project: "./"
+  domain: girlsday-informatik.surge.sh
+  on:
+    branch: master
+- provider: pages
+  skip-cleanup: true
+  local-dir: "./output/"
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
+
