@@ -122,6 +122,12 @@ code {
     font-family: "Cutive mono","Courier New", monospace;
 }
 
+/* for blocks */
+.highlight {
+    color: black;
+    background-color: transparent;
+}
+
 
 a {
     color: inherit;
@@ -172,6 +178,11 @@ small {
 
 img {
     width: 300px
+}
+
+img.responsive {
+    width: 100%;
+    max-width: 100%;
 }
 
 /****************** Background images **********************************************/
