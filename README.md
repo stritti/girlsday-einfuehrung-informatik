@@ -4,7 +4,7 @@ Präsentation in HTML: "Eine Einführung in die Informatik".
 
 [Präsentation starten!](https://stritti.github.io/girlsday-einfuehrung-informatik)
 
-Diese Präsentation ist Grundlage für den Girls' Day 2018.
+Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/).
 
 
 
