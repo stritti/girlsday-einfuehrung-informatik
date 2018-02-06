@@ -5,10 +5,12 @@
     "maxstatements": 30,    // {int} Max number statements per function
     "maxcomplexity": 10,    // {int} Max cyclomatic complexity per function
     "maxlen": 180,   // {int} Max number of characters per line
-    "globalstrict": true,
+    //"globalstrict": true,
 
     // Environments
     "browser": true,   // Web Browser (window, document, etc)
     "devel": true,   // Development/debugging (alert, confirm, etc)
-    "jquery" : true   // jQuery
+    "jquery" : true,   // jQuery
+
+    "esversion": 6
 }
