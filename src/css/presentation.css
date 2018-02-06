@@ -113,6 +113,11 @@ li {
 }
 
 /* Highlight.js used for coloring pre > code blocks. */
+pre {
+    background: rgb(240, 240, 240);
+    color: rgb(50, 50, 50);
+    padding: 0.5em;  
+}
 pre > code {
     font-size: 14px;
 }
