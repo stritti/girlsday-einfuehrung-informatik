@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -9,9 +11,9 @@
     <meta name="viewport" content="width=1400">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="https://pxt.azureedge.net/blob/c4478bc8315eba07849eb0eb2a4e7604081e3be7/doccdn/semantic.css">
-    <link rel="stylesheet" href="https://pxt.azureedge.net/blob/cb1f99cdf08c83e493934fed721ec63c9123ae5f/doccdn/blockly.css">
-    <link href="css/presentation.css" rel="stylesheet" />
+    <link rel="stylesheet"href="css/presentation.css" />
+    <link rel="stylesheet" href="css/gutenberg.min.css" media="print" />
+    <link rel="stylesheet" href="css/impress-print.css" media="print"/>
 </head>
 
 <body class="impress-not-supported">
@@ -28,69 +30,154 @@
 
     <div id="impress" data-transition-duration="1000" >
 
-        <div id="Title" class="step title" data-x="-500" data-y="-500" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-rotate-order="xyz">
-            <h1 class="title">Girls' Day - Eine Einführung in die Informatik</h1>
-            <h2>Autor: Stephan Strittmatter, Talent Scout @
-                <a href="https://www.sybit.de" data-mce-href="https://www.sybit.de">Sybit GmbH</a>
-            </h2>
-            <h3>Datum: 28. April 2018</h3>
+        <div id="Title" class="step" data-x="-1000" data-y="-1000" data-scale="1" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-rotate-order="xyz">
+            <h1 class="title">Girls' Day 2018</h1>
+            <h1 class="title">Eine Einführung in die Informatik</h1>
+            <h2>Stephan Strittmatter</h2>
+            <h3>Talent Scout, <a href="https://www.sybit.de" data-mce-href="https://www.sybit.de">Sybit GmbH</a></h3>            
+            28. April 2018
             <div class="bottom">Eine Einführung in die Informatik: In einem Tag Programmieren lernen.</div>
             <div class="notes">
             </div>
         </div>
 
-        <div id="Autor" class="step" data-rel-x="1500" data-rel-y="1500" data-z="0">
+        <div id="Autor" class="step" data-rel-x="1500" data-rel-y="1000" data-z="0">
             <h1 class="title">Autor</h1>
             <img src="img/Stephan_Strittmatter.jpg" class="responsive" alt="Stephan Strittmatter, Talent Scout" 
                 data-mce-src="img/Stephan_Strittmatter.jpg">
                 <p class="img-title"><em>Stephan Strittmatter</em>, Talent Scout &amp; Senior Consultant</p>
+                <p class="img-source">privates Foto</p>
+            <div class="notes"></div>
+        </div>
+        <div id="Autor_2" class="step" data-rel-x="0" data-rel-y="1000"  data-rotate-z="90">
+                <h1 class="title">Autor</h1>
+                <img src="img/1159px-Amiga500_system.jpg" alt="Amiga 500 mit RGB-Monitor 1084S, Maus und externem Diskettenlaufwerk A1010. Auf dem Bildschirm ist die Workbench zu sehen." />
                 <ul>
+                    <li>mit 14 Jahren: Amiga 500</li>
                     <li>Programmieren, Projektleitung, Marketing, …</li>
-                    <li>Talent Scout und Nachwuchsförderung</li>
+                    <li>Heute: 
+                        <ul>
+                            <li>Senior Berater</li>
+                            <li>Talent Scout und Nachwuchsförderung</li>
+                        </ul>
+                    </li>
                 </ul>
- 
-            <div class="notes">Das ist eine Notiz</div>
-        </div>
+                <p class="img-source">Amiga 500 von Bill Bertram - <span class="int-own-work" lang="de">Eigenes Werk</span>, <a href="https://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC BY-SA 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=350965">Link</a></p>
+                <div class="notes"></div>
+            </div>        
 
-        <div id="Informatik_im_Alltag" class="step" data-x="2000" data-y="2000">
+        <div id="Informatik_im_Alltag" class="step" data-x="2000" data-y="0">
             <h1 class="title">Informatik im Alltag</h1>
-            <p class="center" style="font-size:18rem;">???</p>
-            <p class="bottom">Wo steckt überall &bdquo;die Informatik drin&ldquo;?</p>
+            <img src="img/wimmwlbild-informatik-im-alltag.png" alt="Wimmelbild: Informatik im Alltag" class="responsive"
+             data-source="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/"/>
+             <p class="img-title">Wo steckt überall &bdquo;die Informatik drin&ldquo;?</p>
+            <p class="img-source"><a href="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/">
+                https://www.haus-der-kleinen-forscher.de</a>
+            </p>
+            <div class="notes">
+                In der Informatik geht es nicht nur um das Benutzen der Geräte wie Computer und Co., sondern um die Ideen, 
+                die dahinter stecken, damit solche Geräte funktionieren. Denn die Informatik beschäftigt sich mit der 
+                Automatisierung gedanklicher Abläufe. Ein Taschenrechner übernimmt zum Beispiel das Rechnen für uns. 
+                Dafür, dass uns ein Gerät wie der Taschenrechner am Ende die geistige Arbeit abnehmen kann, müssen 
+                die entsprechenden Prozesse ganz genau beschrieben (Algorithmus) und exakt in einer bestimmten Art 
+                und Weise (Programmiersprache) formuliert werden. Ohne diese Software - die Programme - 
+                würde kein Computer funktionieren.
+            </div>            
+        </div>
+
+        <div id="Informatik_im_Alltag_Ueberall" class="step" data-rel-y="1000">
+            <span style="font-size: 8em">ÜBERALL</span>
+
+            <div class="notes">
+                <ul>
+                    <li >Smartphone</li>
+                    <li >Küchengeräte</li>
+                    <li >Computer</li>
+                    <li >Kasse im Laden</li>
+                    <li >Bankautomat</li>
+                    <li >Wetterstation</li>
+                    <li >Heizung</li>
+                    <li>Auto</li>
+                    <li >Navigations-Gerät</li>
+                    <li >Digitalkamera</li>
+                    <li> ...</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Hardware_und_Software" class="step" data-rel-y="1000">
+            <h1 class="title">Hardware &amp; Software</h1>
+            In der Informatik verbinden sich Hardware und Software
+            <div style="float:left;">
+                <h2>Hardware</h2>
+                <ul >
+                    <li class="substep">Computer</li>
+                    <li class="substep">Auto</li>
+                    <li class="substep">Smartphone</li>
+                    <li class="substep">Microprozessoren</li>
+                    <li class="substep">Senoren</li>
+                </ul>
+            </div>
+            <div style="float:right;">
+                <h2>Software</h2>
+                <ul>
+                    <li class="substep">Windows</li>
+                    <li class="substep">Word, Excel, PowerPoint</li>
+                    <li class="substep">Browser</li>
+                    <li class="substep">Instagramm-, SnapChat-App</li>
+                    <li class="substep">Steuerung des Geschirrspülers</li>
+                </ul>
+            </div>
             <div class="notes">
             </div>            
         </div>
 
-        <div id="Informatik_im_Alltag_Beispiele" class="step" data-x="2000" data-y="3000" 
-            data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
-            data-goto-next-list="Übersicht icecream-pro contents crisps">
-            <h1 class="title">Informatik im Alltag - Beispiele</h1>
-            <ul>
-                <li class="substep">Smartphone</li>
-                <li class="substep">Küchengeräte</li>
-                <li class="substep">Computer</li>
-                <li class="substep">Kasse im Laden</li>
-                <li class="substep">Bankautomat</li>
-                <li class="substep">Wetterstation</li>
-                <li class="substep">Heizung</li>
-                <li class="substep">Auto</li>
-                <li class="substep">&ellip;</li>
-            </ul>
+        <div id="Hardware_und_Software_verbinden" class="step" data-rel-y="1000">
+            <h1 class="title">Hardware &amp; Software verbinden</h1>
+            
+            <img class="responsive" src="img/matrix-1460603554sdB.jpg" alt="Matrix" />
+            <p class="img-title">Programmiersprachen</p>
+            <p class="img-source"><a href="http://www.publicdomainpictures.net/view-image.php?image=159994&picture=matrix">publicdomainpictures.net</a></p>
+       
             <div class="notes">
-            </div>            
+
+            </div>
         </div>
 
-        <div id="Blocks" class="step" data-rel-x="0" data-rel-y="1000" data-goto-key-list="ArrowUp ArrowDown ArrowLeft ArrowRight"
-            data-goto-next-list="icecream icecream-con applepie crisps-pro">
-            <h1>Ice cream: Pro's</h1>
-            <pre><code class="lang-blocks">basic.showNumber(2)</code></pre>
-            <pre><code class="lang-sig">basic.showNumber(2)</code></pre>
-            <pre><code class="lang-block">basic.showNumber(2)</code></pre>
+        <div id="Programmiersprachen" class="step" data-rel-y="1000" >
+            <h1>Programmiersprachen</h1>
+            <q>Eine Programmiersprache ist eine formale Sprache zur Formulierung von Datenstrukturen und Algorithmen, 
+            d. h. von Rechenvorschriften, die von einem Computer ausgeführt werden können.
+            Sie setzen sich aus Anweisungen nach einem vorgegebenen Muster zusammen, der sogenannten Syntax.</q>
+            &mdash; <a href="https://de.wikipedia.org/wiki/Programmiersprache">Wikipedia</a>
+            <p class="bottom">In diesen Sprachen geschriebene Programme können automatisiert in Maschinensprache übersetzt werden, 
+            die von einem Prozessor ausgeführt wird. </p>
+
+            <div class="notes">
+
+            </div>
+        </div>
+
+        <div id="Programmieranweisungen" class="step" data-rel-y="1000" >
+            <h1>Programmieranweisungen</h1>
+            Was brauchen wir?
+
+            <div class="notes">
+
+            </div>
+
+        </div>
+
+        <div id="Programmieren" class="step" data-rel-y="1000" >
+            <h1>Was bedeutet Programmieren?</h1>
+            <pre><code id="code1" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
+            <pre><code id="code2" class="js-blocks" data-snippet="false">basic.showNumber(2)</code></pre>
+            <pre><code id="code3" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
         </div>
 
 
 
-
-        <div id="Fazit" class="step" data-rel-x="1000" data-rel-y="1000">
+        <div id="Fazit" class="step" data-rel-x="1000" data-rel-y="1000" data-rotate-y="-180">
             <h1 class="title">Fazit</h1>
             <p>Can I choose all three ;-)</p>
             <p style="font-size: small; position: absolute; bottom: 30px; left: 300px;" id="image-credits"
@@ -102,7 +189,7 @@
         </div>
 
 
-        <div id="overview" class="step" data-x="3000" data-y="2000" data-scale="9" style="pointer-events: none;">
+        <div id="Overview" class="step" data-x="3000" data-y="2000" data-scale="9" style="pointer-events: none;">
             <p></p>
         </div>
     </div>
@@ -117,7 +204,6 @@
     <div id="impress-help"></div>
 
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="https://makecode.microbit.org/--embed"></script>
     <script type="text/javascript" src="js/makecode-blocks.js"></script>
     <script type="text/javascript" src="js/impress.js"></script>
     <script>impress().init();</script>
