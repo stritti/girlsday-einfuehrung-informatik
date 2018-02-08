@@ -1,0 +1,15 @@
+
+.step {
+   page-break-after: always;
+   page-break-inside: avoid;
+   display: inline !important;
+}
+
+/* hide the control elements on prints */
+#impress-help, #impress-toolbar, .impress-progressbar, .impress-progress {
+   display: none;
+}
+
+.impress-enabled #impress-help {
+   display: none !important;
+}
