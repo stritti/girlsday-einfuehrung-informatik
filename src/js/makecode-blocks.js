@@ -77,7 +77,7 @@ Presentation.blocks = (function () {
     }
 
     function renderSnippets() {
-        let $blocks = $(".js-blocks");
+        var $blocks = $(".js-blocks");
         Array.prototype.forEach.call($blocks, function(block) {
             makeCodeRenderPre($(block));
         });
