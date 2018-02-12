@@ -38,6 +38,7 @@ Wird kein Parameter angegeben, wird automatisch ein "watch" und ein "LiveReload"
 
 * [jQuery](https://jquery.com/), 
 * [impress.js](https://github.com/bartaz/impress.js), MIT License
+* [lazyload](https://github.com/tuupola/jquery_lazyload), MIT License
 
 # Pull-Requests sind willkommen
 
