@@ -110,12 +110,12 @@ body {
 
 .impress-enabled .step.active { opacity: 1 }
 
-.future { 
+.impress-enabled .future.no-dim  { 
     opacity: 1.0 !important;
 }
-.past { 
+.impress-enabled .past.no-dim { 
     opacity: 1.0 !important;
-} 
+}
 
 
 /*
