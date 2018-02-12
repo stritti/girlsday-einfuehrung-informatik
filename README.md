@@ -34,6 +34,11 @@ Sind die unter "Voraussetzungen" aufgeführten Befehle einmal ausgeführt, kann 
 
 Wird kein Parameter angegeben, wird automatisch ein "watch" und ein "LiveReload" aktiv. Das heißt unter der Web-Adresse (http://localhost:3000) ist immer die Aktuelle Vorschau zu sehen. Diese aktualisiert sich bei jeder Änderung automatisch.
 
+## Verwendete Bibliotheken
+
+* [jQuery](https://jquery.com/), 
+* [impress.js](https://github.com/bartaz/impress.js), MIT License
+
 # Pull-Requests sind willkommen
 
 Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.

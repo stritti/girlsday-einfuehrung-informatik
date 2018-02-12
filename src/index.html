@@ -43,7 +43,7 @@
         </section>
 
         <section id="Autor" class="step" data-x="1500" data-rel-y="1000" data-z="0">
-            <img src="img/Stephan_Strittmatter.jpg" class="responsive" alt="Stephan Strittmatter, Talent Scout" 
+            <img data-src="img/Stephan_Strittmatter.jpg" class="lazyload responsive" alt="Stephan Strittmatter, Talent Scout" 
                 data-mce-src="img/Stephan_Strittmatter.jpg">
                 <p class="img-title"><em>Stephan Strittmatter</em>, Talent Scout &amp; Senior Consultant</p>
                 <p class="img-source">privates Foto</p>
@@ -71,7 +71,7 @@
 
         <section id="Informatik_im_Alltag" class="step no-dim" data-x="3000" data-y="0">
           
-            <img src="img/wimmwlbild-informatik-im-alltag.png" alt="Wimmelbild: Informatik im Alltag" class="responsive"
+            <img data-src="img/wimmwlbild-informatik-im-alltag.png" alt="Wimmelbild: Informatik im Alltag" class="lazyload responsive"
              data-source="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/"/>
              <p class="img-title">Wo steckt überall &bdquo;die Informatik drin&ldquo;?</p>
             <p class="img-source"><a href="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/">
@@ -88,7 +88,7 @@
             </aside>            
         </section>
 
-        <section id="Informatik_im_Alltag_1" class="step no-dim" data-rel-x="-350" data-rel-y="-160" data-scale="0.4"></section>
+        <section id="Informatik_im_Alltag_1" class="step" data-rel-x="-350" data-rel-y="-160" data-scale="0.4"></section>
         <section id="Informatik_im_Alltag_2" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
         <section id="Informatik_im_Alltag_3" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
 
@@ -134,7 +134,7 @@
 
         <section id="Hardware_und_Software_verbinden" class="step" >
             
-            <img class="responsive" src="img/matrix-1460603554sdB.jpg" alt="Matrix" />
+            <img class="responsive lazyload" data-src="img/matrix-1460603554sdB.jpg" alt="Matrix" />
             <p class="img-title">Hardware &amp; Software verbinden</p>
             <p class="img-source"><a href="http://www.publicdomainpictures.net/view-image.php?image=159994&picture=matrix">publicdomainpictures.net</a></p>
        
@@ -169,7 +169,7 @@
         </section>
 
         <section id="Programmieranweisungen_Wiederholungen" class="step" data-rel-y="-300" data-scale="0.1" data-rotate-z="90">
-            <img class="responsive" src="img/robot-2363400_1920.jpg" alt="Roboter" />
+            <img class="responsive lazyload" data-src="img/robot-2363400_1920.jpg" alt="Roboter" />
             <div class="middle center">Computer soll langweilige Wiederholungen übernehmen:
             <h2>Wiederholungsschleifen/Wiederholungen</h2>
             </div>
@@ -221,11 +221,13 @@
     <div id="impress-help"></div>
 
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/lazyload.min.js"></script>
     <script type="text/javascript" src="js/makecode-blocks.js"></script>
     <script type="text/javascript" src="js/impress.js"></script>
     <script>
     $( document ).ready(function() {
         impress().init();
+        $("img.lazyload").lazyload();
     });
     </script>
 
