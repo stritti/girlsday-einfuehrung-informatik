@@ -144,9 +144,11 @@ li {
 
 /* Highlight.js used for coloring pre > code blocks. */
 pre {
-    background: rgb(240, 240, 240);
+    background: rgb(230, 230, 230);
     color: rgb(50, 50, 50);
-    padding: 0.5em;  
+    padding: 0.5em;
+    line-height: 1.1em;
+    width: 100vh;
 }
 pre > code {
     font-size: 14px;
@@ -154,7 +156,8 @@ pre > code {
 
 /* Inline code, no Highlight.js */
 code {
-    font-family: "Cutive mono","Courier New", monospace;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    font-weight: 700;    
 }
 
 /* for blocks */

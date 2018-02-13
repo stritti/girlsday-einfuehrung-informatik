@@ -19,15 +19,53 @@ module.exports = function(grunt) {
           { cwd: "src/css", src: "*.css", dest: "output/css", expand: true }
         ]
       },
-      impress: {
+      js: {
         files: [{ cwd: "src/js", src: "*.js", dest: "output/js", expand: true }]
       },
       images: {
         files: [
           { cwd: "src/img", src: "**", dest: "output/img/", expand: true }
         ]
-      }
+      },
+      libs: {
+        files: [
+          { 
+             expand: true, 
+             cwd: 'node_modules/jquery/dist', 
+             src: 'jquery.min.js', 
+             dest: 'output/js' 
+          },
+          { 
+             expand: true, 
+             cwd: 'node_modules/lazyload', 
+             src: 'lazyload.min.js', 
+             dest: 'output/js' 
+          } /*,
+          { 
+            expand: true, 
+            cwd: 'node_modules/impress.js/js', 
+            src: 'impress.js', 
+            dest: 'output/js' 
+         },        */  
+        ]
+    
+      },      
     },
+    uglify: {
+       target: {
+        options: {
+          mangle: false
+        },
+        files: {
+          './output/js/presentation.min.js': [ 
+            './output/js/presentation.js', 
+            './output/js/presentation.makecode-blocks.js', 
+            './output/js/presentation.svg.js'],
+          /*'./output/js/impress.min.js': [ 
+            './output/js/impress.js' ]*/
+        }
+      }
+    },    
     watch: {
       grunt: {
         files: ["Gruntfile.js"]
@@ -40,24 +78,13 @@ module.exports = function(grunt) {
           "src/img/**/*.{png,jpg,jpeg,gif}",
           "src/js/**/*.{js,json}"
         ],
-        tasks: ["copy"],
+        tasks: ["copy", "uglify"],
         options: {
-          //interrupt: true,
+          interrupt: true,
           livereload: true
         }
       }
-    },
-    embed: {
-      options: {
-        threshold: "10240KB" /* Embedd EVERYTHING */,
-        assetRoot: "output"
-      },
-      html: {
-        files: {
-          "output/index.html": "src/index.html"
-        }
-      }
-    },      
+    },    
     browserSync: {
       dev: {
         bsFiles: {
@@ -72,29 +99,19 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks("grunt-contrib-clean");
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks("grunt-contrib-copy");
   grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-browser-sync");
-  grunt.loadNpmTasks("grunt-embed");
 
   grunt.registerTask("default", [
-    "copy:css",
-    "copy:impress",
-    "copy:images",
-    "embed:html",
+    "copy",
+    "uglify",
     "browserSync",
     "watch"
   ]);
   grunt.registerTask("build", [
-    "copy:css",
-    "copy:impress",
-    "copy:images",
-    "embed:html"
-  ]);
-  grunt.registerTask("no_embedd", [
-    "copy:css",
-    "copy:impress",
-    "copy:images",
-    "copy:html"
+    "copy",
+    "uglify"
   ]);
 };

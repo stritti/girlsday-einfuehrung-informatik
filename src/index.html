@@ -12,11 +12,9 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 
 	<link rel="stylesheet" href="css/presentation.css" />
-	<link rel="stylesheet" href="css/gutenberg.min.css" media="print" />
-	<link rel="stylesheet" href="css/impress-print.css" media="print" />
 </head>
 
-<body class="impress-not-supported">
+<body class="impress-not-supported" data-svg="">
 	<div class="fallback-message">
 		<p>Dein Web-Browser
 			<b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine vereinfachte Version der
@@ -39,7 +37,7 @@
 				<a href="https://www.sybit.de" data-mce-href="https://www.sybit.de">Sybit GmbH</a>
 			</h3>
 			28. April 2018
-			<img class="right" src="img/girlsday.jpg" alt="Girls Day" />
+			<img class="right" src="img/girlsday.png" alt="Girls Day" />
 			<div class="bottom">Eine Einführung in die Informatik: In einem Tag Programmieren lernen.</div>
 			<div class="notes">
 			</div>
@@ -172,7 +170,7 @@
 					<span style="color: rgb(243, 151, 243);font-weight:900;">Syntax</span>.</q>
 				&mdash;
 				<a href="https://de.wikipedia.org/wiki/Programmiersprache">Wikipedia</a>
-                &nbsp;
+				&nbsp;
 			</p>
 
 			<aside class="notes">
@@ -181,8 +179,8 @@
 			</aside>
 		</section>
 
-		<section id="Programmieranweisungen" class="step" data-rel-y="1500" data-rotate-z="90">
-			<h1>Programmieranweisungen</h1>
+		<section id="Anweisungen" class="step" data-rel-y="1500" data-rotate-z="90">
+			<h1>Anweisungen</h1>
 			Was brauchen wir?
 
 			<aside class="notes">
@@ -335,32 +333,58 @@
 
 
 			</aside>
-        </section>
-        
-        <section id="Syntax" class="step" data-rel-x="-1000" data-rel-y="500" data-rotate-z="45">
-            <img class="responsive lazyload" data-src="img/artificial-intelligence-2167835_1920.jpg" alt="Syntax" />
-            <div class="img-title">
-                <h1>Syntax &ndash; die Programmiersprache</h1>
-            </div>
-            <div class="img-source">
-                    <a href="https://pixabay.com/de/k%C3%BCnstliche-intelligenz-roboter-ai-2167835/">geralt / pixabay.com</a>, CC0 Creative Commons</div>
-    
-        </section>
+		</section>
 
-        <section id="Microsoft_MakeCode" class="step" data-rel-x="-250" data-rel-y="1000">
-            <h1>Microsoft MakeCode: Blocks Editor</h1>
-            Visuell Programmieren mit "Blocks"
-            <img class="lazyload right" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
-            
-            <div class="img-source">
-                    <a href="https://makecode.com/">Microsoft MakeCode</a>, MIT License</div>
-            <aside class="notes">
+		<section id="Syntax" class="step" data-rel-x="-1000" data-rel-y="500" data-rotate-z="45">
+			<img class="responsive lazyload" data-src="img/artificial-intelligence-2167835_1920.jpg" alt="Syntax" />
+			<div class="img-title">
+				<h1>Syntax &ndash; die Programmiersprache</h1>
+			</div>
+			<div class="img-source">
+				<a href="https://pixabay.com/de/k%C3%BCnstliche-intelligenz-roboter-ai-2167835/">geralt / pixabay.com</a>, CC0 Creative Commons</div>
 
-            </aside>
-        </section>
+		</section>
+
+		<section id="Microsoft_MakeCode" class="step" data-rel-x="-250" data-rel-y="1000" data-scale="1">
+			<h1>Microsoft MakeCode: Blocks Editor</h1>
+			Visuell Programmieren mit "Blocks"
+			<img class="lazyload right" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
+
+			<pre id="example1" class="js-blocks">
+let accY = 0
+let accX = 0
+let y = 0
+let x = 0
+x = 2
+y = 2
+basic.forever(() => {
+		led.plot(x, y)
+		accX = input.acceleration(Dimension.X)
+		accY = input.acceleration(Dimension.Y)
+		if (accX < -150 && x > 0) {
+			x += -1
+		} else if (accX > 150 && x < 4) {
+			x += 1
+		}
+		if (accY < -150 && y > 0) {
+			y += -1
+		} else if (accY > 150 && y < 4) {
+			y += 1
+		}
+		basic.pause(500)
+		basic.clearScreen()
+})
+			</pre>
+			<div class="img-source">
+				<a href="https://makecode.com/">Microsoft MakeCode</a>, MIT License</div>
+			<aside class="notes">
+
+			</aside>
+		</section>
 
 		<section id="Programmieren" class="step" data-rel-y="1500">
-            <h1>Was bedeutet Programmieren?</h1>
+			<h1>Was bedeutet Programmieren?</h1>
+
 			<pre><code id="code1" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
 			<pre><code id="code2" class="js-blocks" data-snippet="false">basic.showNumber(2)</code></pre>
 			<pre><code id="code3" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
@@ -377,7 +401,15 @@
 		<section id="Overview" class="step" data-x="3000" data-y="2000" data-scale="9" style="pointer-events: none;">
 			<p></p>
 		</section>
+
+		<section id="Quellen" class="step" data-x="3000" data-y="2000" data-scale="9" style="pointer-events: none;">
+			<h1>Quellen</h1>>
+			<ul>
+				<li><a href="http://mirobot.io/">Microbit.org</a>: Webseite zum BBC micro:bit</li>
+			</ul>
+		</section>		
 	</div>
+
 
 	<div id="impress-toolbar"></div>
 
@@ -388,13 +420,16 @@
 
 	<div id="impress-help"></div>
 
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/lazyload.min.js"></script>
-	<script type="text/javascript" src="js/makecode-blocks.js"></script>
-	<script type="text/javascript" src="js/impress.js"></script>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/lazyload.min.js"></script>
+	<script type="text/javascript" src="./js/impress.js"></script>
+
+	<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
+	
 	<script>
 		$(document).ready(function () {
 			impress().init();
+			$("code.js-blocks").blocks();
 			$("img.lazyload").lazyload();
 		});
 
