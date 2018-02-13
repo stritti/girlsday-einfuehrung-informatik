@@ -10,7 +10,7 @@ Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-d
 
 # Entwicklung
 
-Um die Präsentation selbst anzupassen und weiter zu entwicklen sind folgende Voraussetzungen und Befehle notwendig:
+Um die Präsentation selbst anzupassen und weiter zu entwicklen, sind folgende Voraussetzungen und Befehle notwendig:
 
 ## Voraussetzungen
 
@@ -21,6 +21,7 @@ Installatopn von node.js und npm:
 
 Danach im Hauptverzeichnis des Projekte folgenden Befehl in der Kommandozeile aufrufen:
 
+* `npm install -g grunt-cli`
 * `npm install`
 
 
