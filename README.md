@@ -1,3 +1,8 @@
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/stritti/girlsday-einfuehrung-informatik)
+[![GitHub license](https://img.shields.io/github/license/stritti/girlsday-einfuehrung-informatik.svg)](https://github.com/stritti/girlsday-einfuehrung-informatik/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/stritti/girlsday-einfuehrung-informatik.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fstritti%2Fgirlsday-einfuehrung-informatik)
+
 # Girls'day - Einführung in die Informatik
 
 Präsentation in HTML: "Eine Einführung in die Informatik".
