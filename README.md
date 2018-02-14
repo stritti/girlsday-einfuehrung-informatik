@@ -1,4 +1,9 @@
-# Girls'day - Einführung in die Informatik
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/stritti/girlsday-einfuehrung-informatik)
+[![GitHub license](https://img.shields.io/github/license/stritti/girlsday-einfuehrung-informatik.svg)](https://github.com/stritti/girlsday-einfuehrung-informatik/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/stritti/girlsday-einfuehrung-informatik.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fstritti%2Fgirlsday-einfuehrung-informatik)
+
+# Einführung in die Informatik
 
 Präsentation in HTML: "Eine Einführung in die Informatik".
 
@@ -10,7 +15,7 @@ Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-d
 
 # Entwicklung
 
-Um die Präsentation selbst anzupassen und weiter zu entwicklen sind folgende Voraussetzungen und Befehle notwendig:
+Um die Präsentation selbst anzupassen und weiter zu entwicklen, sind folgende Voraussetzungen und Befehle notwendig:
 
 ## Voraussetzungen
 
@@ -21,6 +26,7 @@ Installatopn von node.js und npm:
 
 Danach im Hauptverzeichnis des Projekte folgenden Befehl in der Kommandozeile aufrufen:
 
+* `npm install -g grunt-cli`
 * `npm install`
 
 
@@ -52,3 +58,5 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
   * Klasse, dass ich da auch bei der [Übersetzung ins Deutsche](https://makecode.com/translate) mithelfen konnte!
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
 * [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
+
+[⬆ nach oben](#einführung-in-die-informatik)
