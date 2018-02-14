@@ -339,7 +339,7 @@ body.impress-mouse-timeout {
     padding: 1em;
     text-align: center;
     z-index: 100;
-    font-family: Verdana, Arial, Sans;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 .impress-enabled #impress-help td {
     padding-left: 1em;
