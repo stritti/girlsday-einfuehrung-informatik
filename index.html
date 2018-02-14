@@ -95,13 +95,11 @@
 			</aside>
 		</section>
 
-		<section id="Informatik_im_Alltag_1" class="step" data-rel-x="-350" data-rel-y="-160" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_2" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_3" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_1" class="step" data-rel-x="-250" data-rel-y="-160" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_2" class="step" data-rel-x="450" data-rel-y="0" data-scale="0.4"></section>
 
 		<section id="Informatik_im_Alltag_4" class="step" data-rel-x="0" data-rel-y="300" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_5" class="step" data-rel-x="-350" data-rel-y="0" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_6" class="step" data-rel-x="-350" data-rel-y="0" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_5" class="step" data-rel-x="-450" data-rel-y="0" data-scale="0.4"></section>
 
 		<section id="Informatik_im_Alltag_Ueberall" class="step" data-rel-x="750" data-rel-y="1200" data-rotate-z="-90">
 			<div class="middle center" style="font-size: 8em">ÜBERALL</div>
@@ -382,16 +380,38 @@ basic.forever(() => {
 			</aside>
 		</section>
 
-		<section id="Programmieren" class="step" data-rel-y="1500">
-			<h1>Was bedeutet Programmieren?</h1>
+		<section id="Blocks-For-Schleife" class="step" data-rel-y="1500">
+			<h1>Die For-Schleife</h1>
 
-			<pre><code id="code1" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
-			<pre><code id="code2" class="js-blocks" data-snippet="false">basic.showNumber(2)</code></pre>
-			<pre><code id="code3" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
+			Wiederhole eine Anweisung 4-mal.
+			<pre><code id="code1-for" class="js-blocks" data-snippet="true">
+			for (let i = 0; i < 4; i++) {
+
+			}
+			</code></pre>
+
 			<aside class="notes">
 
 			</aside>
 		</section>
+
+
+		<section id="Blocks-If-Bedingung" class="step" data-rel-y="1500">
+				<h1>Die If-Bedingung</h1>
+
+				Wenn &hellip;, dann &hellip;. Sonst &hellip;.
+				<pre><code id="code-if" class="js-blocks" data-snippet="true">
+				if (true) {
+
+				} else {
+
+				}
+				</code></pre>
+
+				<aside class="notes">
+
+				</aside>
+			</section>
 
 		<section id="Fazit" class="step" data-rel-x="1000" data-rel-y="1000" data-rotate-y="-180">
 			<h1 class="title">Fazit</h1>
@@ -408,7 +428,7 @@ basic.forever(() => {
 				<li><a href="http://mirobot.io/">Microbit.org</a>: Webseite zum BBC micro:bit</li>
 				<li>...</li>
 			</ul>
-		</section>		
+		</section>
 	</div>
 
 
@@ -426,7 +446,7 @@ basic.forever(() => {
 	<script type="text/javascript" src="./js/impress.js"></script>
 
 	<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
-	
+
 	<script>
 		$(document).ready(function () {
 			impress().init();
