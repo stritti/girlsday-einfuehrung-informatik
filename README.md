@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/stritti/girlsday-einfuehrung-informatik.svg)](https://github.com/stritti/girlsday-einfuehrung-informatik/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/stritti/girlsday-einfuehrung-informatik.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fstritti%2Fgirlsday-einfuehrung-informatik)
 
-# Girls'day - Einführung in die Informatik
+# Einführung in die Informatik
 
 Präsentation in HTML: "Eine Einführung in die Informatik".
 
@@ -59,4 +59,4 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
 * [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
 
-[⬆ back to top](#entwicklung)
+[⬆ nach oben](#einführung-in-die-informatik)
