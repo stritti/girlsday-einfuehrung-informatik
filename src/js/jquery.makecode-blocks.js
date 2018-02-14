@@ -1,7 +1,9 @@
 /*!
  * jQuery MakerCode Blocks
+ * 
+ * Rendering Block elemenst by given scripts. 
  * version: 1.0.0
- * Requires jQuery v1.7.2 or later
+ *
  */
 /* eslint-disable */
 (function (factory) {

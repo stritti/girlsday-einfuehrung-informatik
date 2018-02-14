@@ -239,7 +239,7 @@ img.responsive {
     content: "Quelle(n): ";
  }
 
- .img-title { 
+.img-title { 
     background-color: rgb(50, 50, 50);
     color: #fff; 
     display: inline;
@@ -248,10 +248,10 @@ img.responsive {
     bottom: 4em;
     left: 4em;
     opacity: .75;
-    
+
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-  }
+}
 
 
 /****************** Background images **********************************************/
@@ -330,7 +330,7 @@ body.impress-mouse-timeout {
 .impress-enabled #impress-help {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     color: #EEEEEE;
-    font-size: 80%;
+    font-size: 100%;
     position: fixed;
     left: 2em;
     bottom: 2em;
