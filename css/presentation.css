@@ -7,26 +7,26 @@
 */
 
 .fallback-message {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    line-height: 1.3;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif;
+	line-height: 1.3;
 
-    width: 780px;
-    padding: 10px 10px 0;
-    margin: 20px auto;
+	width: 780px;
+	padding: 10px 10px 0;
+	margin: 20px auto;
 
-    border: 1px solid #E4C652;
-    border-radius: 10px;
-    background: #EEDC94;
+	border: 1px solid #e4c652;
+	border-radius: 10px;
+	background: #eedc94;
 }
 
 .fallback-message p {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .impress-supported .fallback-message {
-    display: none;
+	display: none;
 }
-
 
 /*
   The body background is the bacgkround of "everything". Many
@@ -35,11 +35,13 @@
 */
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    min-height: 740px;
-    background: rgb(50, 50, 50);
-    color: rgb(240, 240, 240);
-    line-height: 4rem;
+	-webkit-font-smoothing: antialiased;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif;
+	min-height: 740px;
+	background: rgb(50, 50, 50);
+	color: rgb(240, 240, 240);
+	line-height: 4rem;
 }
 
 /*
@@ -47,76 +49,77 @@ body {
 */
 
 .step {
-    position: relative;
-    display: block;
+	position: relative;
+	display: block;
 
-    width: 1024px;
-    height: 740px;
-    margin: 20px auto;
-    padding: 40px 60px;
+	width: 1024px;
+	height: 740px;
+	margin: 20px auto;
+	padding: 40px 60px;
 
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 30px;
-    letter-spacing: 2px;
-
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .step .right {
-    float: right;
-    margin-left:   40px;
-    margin-right:   0px;
-    margin-top:    20px;
-    margin-bottom: 20px;
+	float: right;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .step .center {
-    position: absolute;
-    text-align: center;
-    margin-left:  20px;
-    margin-right: 20px;
+	position: absolute;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .step .left {
-    float: left;
-    margin-right:  40px;
-    margin-left:    0px;
-    margin-top:    20px;
-    margin-bottom: 20px;
+	float: left;
+	margin-right: 40px;
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .step .top {
-    position: absolute;
-    top: 20px;
-    margin-bottom:  20px;
-    margin-top:      0px;
+	position: absolute;
+	top: 20px;
+	margin-bottom: 20px;
+	margin-top: 0px;
 }
 .step .middle {
-    position: absolute;
-    top: 33vh;
-    bottom: 33vh;
+	position: absolute;
+	top: 33vh;
+	bottom: 33vh;
 }
 .step .bottom {
-    position: absolute;
-    bottom: 20px;
-    margin-bottom:   40px;
-    margin-top:     20px;
+	position: absolute;
+	bottom: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 /*
     Make inactive steps a little bit transparent.
 */
 .impress-enabled .step {
-    margin: 0;
-    opacity: 0.3;
-    transition:         opacity 1s;
+	margin: 0;
+	opacity: 0.3;
+	transition: opacity 1s;
 }
 
-.impress-enabled .step.active { opacity: 1 }
+.impress-enabled .step.active {
+	opacity: 1;
+}
 
-.impress-enabled .future.no-dim  {
-    opacity: 1.0 !important;
+.impress-enabled .future.no-dim {
+	opacity: 1 !important;
 }
 .impress-enabled .past.no-dim {
-    opacity: 1.0 !important;
+	opacity: 1 !important;
 }
-
 
 /*
     Speaker notes allow you to write comments within the steps, that will not
@@ -125,149 +128,167 @@ body {
 */
 
 .notes {
-    display: none;
+	display: none;
 }
 
-h1, h2, h3 {
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+h1,
+h2,
+h3 {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 p {
-    text-align: left;
-    margin: 0.7em;
+	text-align: left;
+	margin: 0.7em;
 }
 
 li {
-    margin: 0.2em;
+	margin: 0.2em;
 }
 
 /* Highlight.js used for coloring pre > code blocks. */
 pre {
-    background: rgb(230, 230, 230);
-    color: rgb(50, 50, 50);
-    padding: 0.5em;
-    line-height: 1.1em;
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	padding: 0.5em;
+	line-height: 1.1em;
 	width: 80vh;
 	border-radius: 0.33em;
 }
 pre > code {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 /* Inline code, no Highlight.js */
 code {
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-    font-weight: 700;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	font-weight: 700;
 }
 
 /* for blocks */
 .highlight {
-    color: black;
-    background-color: transparent;
+	color: black;
+	background-color: transparent;
 }
 
-
 a {
-    color: inherit;
-    text-decoration: none;
-    padding: 0 0.1em;
-    background: rgba(200,200,200,0.3);
-    text-shadow: -1px 1px 2px rgba(100,100,100,0.9);
-    border-radius: 0.2em;
-    border-bottom: 1px solid rgba(100,100,100,0.4);
-    border-left:   1px solid rgba(100,100,100,0.4);
+	color: inherit;
+	text-decoration: none;
+	padding: 0 0.1em;
+	background: rgba(200, 200, 200, 0.3);
+	text-shadow: -1px 1px 2px rgba(100, 100, 100, 0.9);
+	border-radius: 0.2em;
+	border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+	border-left: 1px solid rgba(100, 100, 100, 0.4);
 
-    transition:         0.5s;
+	transition: 0.5s;
 }
 a:hover,
 a:focus {
-    background: rgba(200,200,200,1);
-    text-shadow: -1px 1px 2px rgba(100,100,100,0.5);
+	background: rgba(200, 200, 200, 1);
+	text-shadow: -1px 1px 2px rgba(100, 100, 100, 0.5);
 }
 
 blockquote {
-    font-family: 'PT Serif';
-    font-style: italic;
-    font-weight: 400;
+	font-family: "PT Serif";
+	font-style: italic;
+	font-weight: 400;
 }
 
 em {
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 strong {
-    text-shadow: -1px 1px 2px rgba(100,100,100,0.5);
+	text-shadow: -1px 1px 2px rgba(100, 100, 100, 0.5);
 }
 
 q {
-    font-family: 'PT Serif';
-    font-style: italic;
-    font-weight: 400;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+	font-family: "PT Serif";
+	font-style: italic;
+	font-weight: 400;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 strike {
-    opacity: 0.7;
+	opacity: 0.7;
 }
 
 small {
-    font-size: 0.4em;
+	font-size: 0.4em;
 }
 
 img {
-    width: 300px
+	width: 300px;
 }
 
 img.responsive {
-    overflow: hidden;
-    object-fit: cover;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 700px;
+	overflow: hidden;
+	object-fit: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 700px;
 }
 
 .img-source {
-    position: absolute;
-    bottom: 1em;
-    font-size: 0.4em;
-    opacity: .75;
+	position: absolute;
+	bottom: 1em;
+	font-size: 0.4em;
+	opacity: 0.75;
 }
 .img-source:before {
-    content: "Quelle(n): ";
- }
-
-.img-title {
-    background-color: rgb(50, 50, 50);
-    color: #fff;
-    display: inline;
-    padding: 0.5rem;
-    position: absolute;
-    bottom: 4em;
-    left: 4em;
-    opacity: .75;
-
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+	content: "Quelle(n): ";
 }
 
+.img-title {
+	background-color: rgb(50, 50, 50);
+	color: #fff;
+	display: inline;
+	padding: 0.5rem;
+	position: absolute;
+	bottom: 4em;
+	left: 4em;
+	opacity: 0.75;
+
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+.vignette {
+	position: relative;
+}
+
+.vignette img {
+	display: block;
+}
+
+.vignette:after {
+	-moz-box-shadow: inset 0 0 20em rgb(50, 50, 50);
+	-webkit-box-shadow: inset 0 0 20em rgb(50, 50, 50);
+	box-shadow: inset 0 0 20em rgb(50, 50, 50);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	content: "";
+}
 
 /****************** Background images **********************************************/
 
-
 img.bg {
-    position: fixed;
-    z-index: -100;
-    opacity: 0;
-    height: 50%;
-    width: auto;
-    transition:  opacity 2s;
+	position: fixed;
+	z-index: -100;
+	opacity: 0;
+	height: 50%;
+	width: auto;
+	transition: opacity 2s;
 }
-
-
 
 /******************* PLUGINS *************************************************************/
 /*
@@ -275,14 +296,14 @@ img.bg {
   plugin that allows easy navigation between steps and autoplay.
 */
 .impress-enabled div#impress-toolbar {
-    position: fixed;
-    right: 1px;
-    bottom: 1px;
-    opacity: 0.6;
-    z-index: 10;
+	position: fixed;
+	right: 1px;
+	bottom: 1px;
+	opacity: 0.6;
+	z-index: 10;
 }
 .impress-enabled div#impress-toolbar > span {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 /*
@@ -290,75 +311,82 @@ img.bg {
     have it show only when you move/click/touch the mouse.
 */
 body.impress-mouse-timeout div#impress-toolbar {
-    display: none;
+	display: none;
 }
 
 /*
     In fact, we can hide the mouse cursor itself too, when mouse isn't used.
 */
 body.impress-mouse-timeout {
-    cursor: none;
+	cursor: none;
 }
-
-
 
 /* Progress bar */
 .impress-progressbar {
-  position: absolute;
-  right: 118px;
-  bottom: 1px;
-  left: 118px;
-  border-radius: 7px;
-  border: 2px solid rgba(100, 100, 100, 0.2);
+	position: absolute;
+	right: 118px;
+	bottom: 1px;
+	left: 118px;
+	border-radius: 7px;
+	border: 2px solid rgba(100, 100, 100, 0.2);
 }
 .impress-progressbar div {
-  width: 0;
-  height: 2px;
-  border-radius: 5px;
-  background: rgba(75, 75, 75, 0.4);
-  transition: width 1s linear;
+	width: 0;
+	height: 2px;
+	border-radius: 5px;
+	background: rgba(75, 75, 75, 0.4);
+	transition: width 1s linear;
 }
 .impress-progress {
-  position: absolute;
-  left: 59px;
-  bottom: 1px;
-  text-align: left;
-  font-size: 10pt;
-  opacity: 0.6;
+	position: absolute;
+	left: 59px;
+	bottom: 1px;
+	text-align: left;
+	font-size: 10pt;
+	opacity: 0.6;
 }
 
 /* Help popup plugin */
 .impress-enabled #impress-help {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-    color: #EEEEEE;
-    font-size: 100%;
-    position: fixed;
-    left: 2em;
-    bottom: 2em;
-    width: 24em;
-    border-radius: 1em;
-    padding: 1em;
-    text-align: center;
-    z-index: 100;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	color: #eeeeee;
+	font-size: 100%;
+	position: fixed;
+	left: 2em;
+	bottom: 2em;
+	width: 24em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align: center;
+	z-index: 100;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif;
 }
 .impress-enabled #impress-help td {
-    padding-left: 1em;
-    padding-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 /* Substep plugin */
 
 #impress .step .substep {
-    opacity: 0;
+	opacity: 0;
 }
 
 #impress .step .substep.substep-visible {
-    opacity: 1;
-    transition: opacity 1s;
+	opacity: 1;
+	transition: opacity 1s;
 }
 
-.impress-enabled                          { pointer-events: none }
-.impress-enabled #impress                 { pointer-events: auto }
-.impress-enabled #impress-toolbar         { pointer-events: auto }
-.impress-enabled #impress-console-button  { pointer-events: auto }
+.impress-enabled {
+	pointer-events: none;
+}
+.impress-enabled #impress {
+	pointer-events: auto;
+}
+.impress-enabled #impress-toolbar {
+	pointer-events: auto;
+}
+.impress-enabled #impress-console-button {
+	pointer-events: auto;
+}
