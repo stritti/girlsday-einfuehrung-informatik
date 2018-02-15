@@ -1,8 +1,8 @@
 /*
     We display a fallback message for users with browsers that don't support
-    all the features required by it. All of the content will be still fully 
+    all the features required by it. All of the content will be still fully
     accessible for them, but some more advanced effects would be missing.
-    When impress.js detects that browser supports all necessary CSS3 features, 
+    When impress.js detects that browser supports all necessary CSS3 features,
     the fallback-message style is hidden.
 */
 
@@ -35,6 +35,7 @@
 */
 
 body {
+    -webkit-font-smoothing: antialiased;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     min-height: 740px;
     background: rgb(50, 50, 50);
@@ -72,7 +73,7 @@ body {
     position: absolute;
     text-align: center;
     margin-left:  20px;
-    margin-right: 20px;    
+    margin-right: 20px;
 }
 .step .left {
     float: left;
@@ -85,18 +86,18 @@ body {
     position: absolute;
     top: 20px;
     margin-bottom:  20px;
-    margin-top:      0px;    
+    margin-top:      0px;
 }
 .step .middle {
     position: absolute;
     top: 33vh;
-    bottom: 33vh;   
+    bottom: 33vh;
 }
 .step .bottom {
     position: absolute;
     bottom: 20px;
     margin-bottom:   40px;
-    margin-top:     20px;    
+    margin-top:     20px;
 }
 
 /*
@@ -110,16 +111,16 @@ body {
 
 .impress-enabled .step.active { opacity: 1 }
 
-.impress-enabled .future.no-dim  { 
+.impress-enabled .future.no-dim  {
     opacity: 1.0 !important;
 }
-.impress-enabled .past.no-dim { 
+.impress-enabled .past.no-dim {
     opacity: 1.0 !important;
 }
 
 
 /*
-    Speaker notes allow you to write comments within the steps, that will not 
+    Speaker notes allow you to write comments within the steps, that will not
     be displayed as part of the presentation. However, they will be picked up
     and displayed by impressConsole.js when integrated.
 */
@@ -139,7 +140,7 @@ p {
 }
 
 li {
-    margin: 0.2em;    
+    margin: 0.2em;
 }
 
 /* Highlight.js used for coloring pre > code blocks. */
@@ -148,7 +149,8 @@ pre {
     color: rgb(50, 50, 50);
     padding: 0.5em;
     line-height: 1.1em;
-    width: 100vh;
+	width: 80vh;
+	border-radius: 0.33em;
 }
 pre > code {
     font-size: 14px;
@@ -157,7 +159,7 @@ pre > code {
 /* Inline code, no Highlight.js */
 code {
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
 /* for blocks */
@@ -188,11 +190,11 @@ a:focus {
 blockquote {
     font-family: 'PT Serif';
     font-style: italic;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
 em {
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);    
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
 }
 
 strong {
@@ -202,7 +204,7 @@ strong {
 q {
     font-family: 'PT Serif';
     font-style: italic;
-    font-weight: 400;    
+    font-weight: 400;
     text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
 }
 
@@ -239,9 +241,9 @@ img.responsive {
     content: "Quelle(n): ";
  }
 
-.img-title { 
+.img-title {
     background-color: rgb(50, 50, 50);
-    color: #fff; 
+    color: #fff;
     display: inline;
     padding: 0.5rem;
     position: absolute;

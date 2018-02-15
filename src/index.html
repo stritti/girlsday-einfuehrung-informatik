@@ -80,7 +80,8 @@
 			<img data-src="img/wimmwlbild-informatik-im-alltag.png" alt="Wimmelbild: Informatik im Alltag" class="lazyload responsive"
 			data-source="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/"
 			/>
-			<p class="img-title">Wo steckt überall <em>&bdquo;Informatik drin&ldquo;</em>?</p>
+			<p class="img-title">Wo steckt überall
+				<em>&bdquo;Informatik drin&ldquo;</em>?</p>
 			<p class="img-source">
 				<a href="https://www.haus-der-kleinen-forscher.de/de/praxisanregungen/experimente-themen/informatik/experiment/computer-und-co-informatik-im-alltag/">
 					www.haus-der-kleinen-forscher.de</a>
@@ -95,13 +96,11 @@
 			</aside>
 		</section>
 
-		<section id="Informatik_im_Alltag_1" class="step" data-rel-x="-350" data-rel-y="-160" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_2" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_3" class="step" data-rel-x="350" data-rel-y="0" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_1" class="step" data-rel-x="-250" data-rel-y="-160" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_2" class="step" data-rel-x="450" data-rel-y="0" data-scale="0.4"></section>
 
 		<section id="Informatik_im_Alltag_4" class="step" data-rel-x="0" data-rel-y="300" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_5" class="step" data-rel-x="-350" data-rel-y="0" data-scale="0.4"></section>
-		<section id="Informatik_im_Alltag_6" class="step" data-rel-x="-350" data-rel-y="0" data-scale="0.4"></section>
+		<section id="Informatik_im_Alltag_5" class="step" data-rel-x="-450" data-rel-y="0" data-scale="0.4"></section>
 
 
 		<section id="Informatik_im_Alltag_Ueberall" class="step" data-rel-x="1500" data-rel-y="1500" data-rotate-z="-90">
@@ -347,7 +346,7 @@
 
 		</section>
 
-		<section id="Microsoft_MakeCode" class="step" data-rel-x="-250" data-rel-y="1000" data-scale="1">
+		<section id="Microsoft_MakeCode" class="step" data-rel-x="-250" data-rel-y="1500" data-scale="1">
 			<h1>Microsoft MakeCode: Blocks Editor</h1>
 			Visuell Programmieren mit "Blocks"
 			<img class="lazyload right" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
@@ -384,39 +383,62 @@ basic.forever(() => {
 			</aside>
 		</section>
 
-		<section id="Programmieren" class="step" data-rel-y="1500">
-			<h1>Was bedeutet Programmieren?</h1>
+		<section id="Blocks-If-Bedingung" class="step" data-rel-y="1500">
+			<h1>Die If-Bedingung</h1>
 
-			<pre><code id="code1" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
-			<pre><code id="code2" class="js-blocks" data-snippet="false">basic.showNumber(2)</code></pre>
-			<pre><code id="code3" class="js-blocks" data-snippet="true">basic.showNumber(2)</code></pre>
+			Wenn &hellip;, dann &hellip;. Sonst &hellip;.
+			<pre><code id="code-if" class="js-blocks" data-snippet="true">
+				if (true) {
+
+				} else {
+
+				}
+				</code></pre>
+
+			<aside class="notes">
+
+			</aside>
+		</section>
+
+		<section id="Blocks-For-Schleife" class="step" data-rel-y="1500">
+			<h1>Die For-Schleife</h1>
+
+			Wiederhole eine Anweisung 4-mal.
+			<pre><code id="code1-for" class="js-blocks" data-snippet="true">
+			for (let i = 0; i < 4; i++) {
+
+			}
+			</code></pre>
+
 			<aside class="notes">
 
 			</aside>
 		</section>
 
 		<section id="Hardwaret" class="step" data-rel-x="1000" data-rel-y="1000">
-				<img class="lazyload responsive" data-src="img/f" alt="Hardware Platine" />
+			<img class="lazyload responsive" data-src="img/f" alt="Hardware Platine" />
 			<h1 class="img-title">HARDWARE</h1>
-		</section>	
+		</section>
 
 		<section id="BBC-Microbit" class="step" data-rel-x="1000" data-rel-y="1000">
 			<h1 class="title">BBC micro:bit</h1>
 			Mini Computer mit Erweiterungsmöglichkeiten
-		</section>	
-		
+		</section>
+
 		<section id="BBC-Microbit-oben" class="step" data-rel-x="0" data-rel-y="1000">
 			<h1 class="title">BBC micro:bit Platine oben</h1>
 			<img class="lazyload responsive" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
 
-		</section>	
+		</section>
 
 		<section id="BBC-Microbit-unten" class="step" data-rel-x="0" data-rel-y="1000" data-rotate-x="-90">
 			<h1 class="title">BBC micro:bit Platine unten</h1>
 			<img class="lazyload responsive" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
 
-		</section>		
-		<section id="Fazit" class="step" data-rel-x="1000"  data-rotate-z="-180">
+		</section>
+
+		<section id="Fazit" class="step" data-rel-x="1000" data-rel-y="1000" data-rotate-y="-180">
+
 			<h1 class="title">Fazit</h1>
 
 		</section>
@@ -428,12 +450,17 @@ basic.forever(() => {
 		<section id="Quellen" class="step skip" data-x="3000" data-y="2000" data-scale="0.1">
 			<h1>Quellen</h1>
 			<ul>
-				<li><a href="https://www.microbit.co.uk">Microbit.org</a>: Webseite zum BBC micro:bit</li>
-				<li><a href="https:/makecode.microbit.org/">Microsoft MakeCode Editor</a></li>
-				<li><a href="http://mirobot.io/"></li>
+				<li>
+					<a href="http://microbit.org/de/">Microbit.org</a>: Webseite zum BBC micro:bit</li>
+				<li>
+					<a href="https:/makecode.microbit.org/">Microsoft MakeCode Editor</a>
+				</li>
+				<li>
+					<a href="http://mirobot.io/">
+				</li>
 				<li>...</li>
 			</ul>
-		</section>		
+		</section>
 	</div>
 
 
@@ -451,7 +478,7 @@ basic.forever(() => {
 	<script type="text/javascript" src="./js/impress.js"></script>
 
 	<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
-	
+
 	<script>
 		$(document).ready(function () {
 			impress().init();
