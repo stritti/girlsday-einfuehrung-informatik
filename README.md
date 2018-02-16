@@ -19,7 +19,7 @@ Um die Präsentation selbst anzupassen und weiter zu entwicklen, sind folgende V
 
 ## Voraussetzungen
 
-Installatopn von node.js und npm: 
+Installatopn von node.js und npm:
 
 * Installiere [node.js](https://nodejs.org/de/)
 * Installiere [npm](https://www.npmjs.com/get-npm)
@@ -42,9 +42,10 @@ Wird kein Parameter angegeben, wird automatisch ein "watch" und ein "LiveReload"
 
 ## Verwendete Bibliotheken
 
-* [jQuery](https://jquery.com/), 
+* [jQuery](https://jquery.com/),
 * [impress.js](https://github.com/bartaz/impress.js), MIT License
 * [lazyload](https://github.com/tuupola/jquery_lazyload), MIT License
+* [EMOJI CSS](https://afeld.github.io/emoji-css/), MIT License
 
 # Pull-Requests sind willkommen
 
@@ -58,5 +59,6 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
   * Klasse, dass ich da auch bei der [Übersetzung ins Deutsche](https://makecode.com/translate) mithelfen konnte!
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
 * [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
+* Herzlichen Dank all denen, die so schöne Fotos zur freien Ferfüung bereitstellen!
 
 [⬆ nach oben](#einführung-in-die-informatik)
