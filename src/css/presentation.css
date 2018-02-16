@@ -253,6 +253,7 @@ img.responsive {
 	bottom: 4em;
 	left: 4em;
 	opacity: 0.75;
+	z-index: 50;
 
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
