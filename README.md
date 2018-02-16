@@ -9,9 +9,17 @@ Präsentation in HTML: "Eine Einführung in die Informatik".
 
 [Präsentation starten!](https://stritti.github.io/girlsday-einfuehrung-informatik)
 
-Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/).
 
 
+# Workshop
+
+Der Inhalt dieser Präsentation ist für einen eintägigen Workshop mit Jugendlichen ab der 5. Klasse gedacht.
+
+Dabei kann sicher nicht in die komplette Tiefe der Programmierung abgetaucht werden. Der Tag soll vielmehr den
+Spaß an der Informatik fördern und mit möglichst anschaulichen mitteln zeigen, dass das gar nciht so
+kompliziert ist, wie viele sich das vorstellen.
+
+Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
 
 # Entwicklung
 
