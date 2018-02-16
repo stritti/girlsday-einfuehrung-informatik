@@ -58,9 +58,9 @@
 		<section id="Autor_2" class="step" data-rel-x="0" data-rel-y="1500" data-rotate-z="0">
 			<h1 class="title">Autor</h1>
 			<p class="vignette right">
-				<img class=" lazyload" data-src="img/1159px-Amiga500_system.jpg"
-					alt="Amiga 500 mit RGB-Monitor 1084S, Maus und externem Diskettenlaufwerk A1010. Auf dem Bildschirm ist die Workbench zu sehen."/>
-		</p>
+				<img class=" lazyload" data-src="img/1159px-Amiga500_system.jpg" alt="Amiga 500 mit RGB-Monitor 1084S, Maus und externem Diskettenlaufwerk A1010. Auf dem Bildschirm ist die Workbench zu sehen."
+				/>
+			</p>
 			<ul>
 				<li>mit 14 Jahren: Amiga 500</li>
 				<li>Programmieren, Projektleitung, Marketing, …</li>
@@ -369,26 +369,8 @@
 		</section>
 
 
-		<section id="Blocks-If-Bedingung" class="step" data-rel-y="1500">
-			<h1>Die If-Bedingung</h1>
 
-			Wenn &hellip;, dann &hellip;.<br />
-			Sonst &hellip;.
-			<pre><code id="code-statement-if" class="js-blocks" data-snippet="true">
-				if (true) {
-
-				} else {
-
-				}
-				</code></pre>
-
-			<aside class="notes">
-
-			</aside>
-		</section>
-
-
-		<section id="Blocks-For-Schleife" class="step" data-rel-y="1500">
+		<section id="Blocks-Loops" class="step" data-rel-y="1500">
 			<h1>Die For-Schleife</h1>
 
 			Wiederhole eine Anweisung 4-mal:
@@ -396,9 +378,7 @@
 			for (let i = 0; i < 4; i++) {
 
 			}
-			</code></pre>
-
-			Wiederhole solange etwas "wahr" ist:
+			</code></pre> Wiederhole solange etwas "wahr" ist:
 			<pre><code id="code--statement-while" class="js-blocks" data-snippet="true">
 				while (true) {
 
@@ -409,7 +389,55 @@
 			</aside>
 		</section>
 
+		<section id="Blocks-If-Bedingung" class="step" data-rel-y="1500">
+			<h1>Die If-Bedingung</h1>
 
+			Wenn &hellip;, dann &hellip;.
+			<br /> Sonst &hellip;.
+			<pre><code id="code-statement-if" class="js-blocks" data-snippet="true">
+					if (true) {
+
+					} else {
+
+					}
+					</code></pre>
+
+			<aside class="notes">
+
+			</aside>
+		</section>
+
+		<section id="Blocks-Variablen" class="step" data-rel-y="1500">
+			<h1>Die If-Bedingung</h1>
+
+			TODO
+			<pre><code id="code-var" class="js-blocks" data-snippet="true">
+				let meinWert = 5;
+			</code></pre>
+
+			<aside class="notes">
+
+			</aside>
+		</section>
+
+
+		<section id="Blocks-Eingabe-Ausgabe" class="step" data-rel-y="1500">
+			Von der Hardware abhängig &smile; ...
+		</section>
+
+
+		<section id="Blocks-Eingabe-Tasten" class="step" data-rel-y="1500">
+			<h1>Eingabe</h1>
+
+			Tasten: A &amp; B
+			<pre><code id="code-var" class="js-blocks" data-snippet="true">
+					let meinWert = 5;
+			</code></pre>
+
+			<aside class="notes">
+
+			</aside>
+		</section>
 		<section id="Hardware" class="step" data-rel-x="1000" data-rel-y="1000">
 			<p class="vignette">
 				<img class="lazyload responsive" data-src="img/BBC-microbit-back.jpg" alt="Hardware Platine" />
@@ -453,9 +481,9 @@
 		<section id="Quellen" class="step skip" data-x="-1500" data-y="0" data-scale="1">
 			<h1>Quellen</h1>
 			<ul>
-					<li>
-							<a href="http://www.code-your-life.org/">Code your Life</a>
-						</li>
+				<li>
+					<a href="http://www.code-your-life.org/">Code your Life</a>
+				</li>
 				<li>
 					<a href="http://microbit.org/de/">Microbit.org</a>: Webseite zum BBC micro:bit</li>
 				<li>
@@ -490,7 +518,9 @@
 			$("code.js-blocks").blocks();
 			$("img.lazyload").lazyload();
 		});
+
 	</script>
 
 </body>
+
 </html>
