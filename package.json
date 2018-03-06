@@ -27,10 +27,10 @@
     "grunt-contrib-nodeunit": "~1.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "~1.0.0",
-    "jshint": "2.9.5"
+    "jshint": "^2.9.5"
   },
   "scripts": {
-    "watch": "grunt",
+    "start": "grunt",
     "build": "grunt build",
     "test": "echo \"Error: no test specified.\""
   }

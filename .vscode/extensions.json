@@ -1,0 +1,14 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+		"HookyQR.beautify",
+		"eamodio.gitlens",
+		"Zignd.html-css-class-completion",
+		"dbaeumer.jshint",
+		"PKief.material-icon-theme",
+		"eg2.vscode-npm-script"
+
+	]
+}
