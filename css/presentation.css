@@ -114,10 +114,10 @@ body {
 	opacity: 1;
 }
 
-.impress-enabled .future.no-dim {
+.impress-enabled .future.no-dim, .impress-enabled .future.no-dim-future {
 	opacity: 1 !important;
 }
-.impress-enabled .past.no-dim {
+.impress-enabled .past.no-dim, .impress-enabled .future.no-dim-past {
 	opacity: 1 !important;
 }
 
