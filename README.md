@@ -48,6 +48,15 @@ Sind die unter "Voraussetzungen" aufgeführten Befehle einmal ausgeführt, kann 
 
 Wird kein Parameter angegeben, wird automatisch ein "watch" und ein "LiveReload" aktiv. Das heißt unter der Web-Adresse (http://localhost:3000) ist immer die Aktuelle Vorschau zu sehen. Diese aktualisiert sich bei jeder Änderung automatisch.
 
+## Besondere Features/Erweiterungen
+
+* eigenes jQuery-Plugin zum automatischen Rendern der Quellcode-Blocks als SVGs (`js/jquery.makecode-blocks.js`)
+* CSS-Style Klassen
+	* `responsive` für Bilder: diese werden dann in maximaler Größe in dem Step angezeigt.
+	* `vignette` für Bilder: erzeigt abgedunkelten Rand (Vignette) um ein Bild.
+	* `ìmg-title` für Text: Erzeugt ein halbtransparentes Overlay über responsiven Bildern.
+	* `img-source` erzeugt eine Quellenangabe am unteren Rand des Steps.
+
 ## Verwendete Bibliotheken
 
 * [jQuery](https://jquery.com/),
