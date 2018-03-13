@@ -23,9 +23,22 @@ Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-d
 
 # Interessante Links
 
-* BBC micro:bit Homepage: http://microbit.org/
+* BBC micro:bit: http://microbit.org/
+
+  Homepage zum BBC micro:bit (deutsch/englisch)
+
 * MakeCode für micro:bit: https://makecode.microbit.org/
+
+  Browserbasierte Entwicklungsumgebung für den BBC micro:bit (deutsch/engl.)
+
 * Awesome micro:bit: https://github.com/carlosperate/awesome-microbit
+
+  Liste von Interessanten Links zum micro:bit (engl.)
+
+* Code Kingdoms: https://www.microbit.co.uk/app/#create:tomwku
+
+  Alternative Entwicklungsumgebung, die grafisch, jedoch näher am Quellcode ist.
+
 * Einige Infokarten zu speziellen Themen: https://www.maplin.co.uk/microbit
 
 # Entwicklung
@@ -70,6 +83,7 @@ Wird kein Parameter angegeben, wird automatisch ein "watch" und ein "LiveReload"
 * [impress.js](https://github.com/bartaz/impress.js), MIT License
 * [lazyload](https://github.com/tuupola/jquery_lazyload), MIT License
 * [EMOJI CSS](https://afeld.github.io/emoji-css/), MIT License
+* [grunt-html-pdf](https://www.npmjs.com/package/grunt-html-pdf), MIT License
 
 # Pull-Requests sind willkommen
 
