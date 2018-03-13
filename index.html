@@ -170,7 +170,7 @@
 			</aside>
 		</section>
 
-		<section id="Hardware_und_Software_verbinden" class="step" data-rel-x="1500" data-rel-x="-500" data-scale="1">
+		<section id="Hardware_und_Software_verbinden" class="step" data-rel-x="1500" data-rel-x="0" data-scale="1">
 			<p class="vignette">
 				<img class="responsive lazyload" data-src="img/matrix-1460603554sdB.jpg" alt="Matrix" />
 			</p>
@@ -325,8 +325,10 @@
 			<img class="responsive lazyload" data-src="img/virtual-reality-1802469_1920.jpg" alt="Computer Anweisungen" />
 			<div class="img-title">
 				<ul>
-					<li><em>Eingabe:</em> Tastatur, Maus, Mikrofon, Sensoren, &hellip;</li>
-					<li><em>Ausgabe:</em> Monitor, Lautsprecher, VR-Brille, LED, &hellip;</li>
+					<li>
+						<em>Eingabe:</em> Tastatur, Maus, Mikrofon, Sensoren, &hellip;</li>
+					<li>
+						<em>Ausgabe:</em> Monitor, Lautsprecher, VR-Brille, LED, &hellip;</li>
 
 				</ul>
 			</div>
@@ -378,7 +380,7 @@
 		</section>
 
 
-		<section id="Microsoft_MakeCode" class="step" data-rel-x="-400" data-rel-y="1250"  data-rotate-z="0">
+		<section id="Microsoft_MakeCode" class="step" data-rel-x="-400" data-rel-y="1250" data-rotate-z="0">
 
 			<img class="lazyload responsive" data-src="img/blocks.gif" alt="Microsoft MakeCode Blocks Editor" />
 
@@ -488,28 +490,12 @@
 			</aside>
 		</section>
 
-		<section id="BBC-Microbit" class="step no-dim" data-rel-x="0" data-rel-y="0" data-scale="0.001" data-rotate-z="0">
 
-			<h1 class="title">BBC micro:bit Hardware</h1>
-			<img class="lazyload responsive" data-src="img/microbit-hardware.png" alt="BBC micro:bit Hardware Übersicht" />
-			<div class="img-source">
-				<a href="http://www.microbit.org/de/guide/features/">Micro:bit Educational Foundation</a>
-			</div>
-		</section>
-
-		<section id="BBC-Microbit-front" class="step no-dim-future" data-rel-x="-0.2" data-rel-y="0" data-scale="0.0005">
-
-		</section>
-
-		<section id="BBC-Microbit-back" class="step no-dim-future" data-rel-x="0.4" data-rel-y="0" data-scale="0.0005">
-
-		</section>
-
-		<section id="IO-Tasten" class="step" data-rel-y="1500">
+		<section id="IO-Tasten" class="step" data-rel-x="600" data-rel-y="800" data-rotate-z="-45">
 			<h1>Taste A &amp; Taste B</h1>
 
-				Es gibt zwei Tasten auf der Vorderseite des micro:bit (beschriftet mit A und B). Du kannst erkennen,
-				wann diese Tasten gedrückt werden, so dass du Code auf dem Gerät auslösen kannst.
+			Es gibt zwei Tasten auf der Vorderseite des micro:bit (beschriftet mit A und B). Du kannst erkennen, wann diese Tasten gedrückt
+			werden, so dass du Code auf dem Gerät auslösen kannst.
 
 			<img class="lazyload center middle" data-src="img/microbit-features-buttons.png" alt="BBC micro:bit Tasten" />
 			<div class="img-source">
@@ -522,12 +508,11 @@
 		</section>
 
 
-		<section id="IO-Pins" class="step" data-rel-y="1500">
+		<section id="IO-Pins" class="step" data-rel-x="1200" data-rel-y="300" data-rotate-z="-90">
 			<h1>Pins</h1>
 
-			Es gibt 25 externe Anschlüsse am Randverbinder des micro:bit, die wir als „Pins“ bezeichnen. <br />
-			Progammiere andere elektrische Komponenten mit den Pins oder schließe zusätzliche Sensoren an,
-			um deinen Code zu steuern!
+			Es gibt 25 externe Anschlüsse am Randverbinder des micro:bit, die wir als „Pins“ bezeichnen.
+			<br /> Progammiere andere elektrische Komponenten mit den Pins oder schließe zusätzliche Sensoren an, um deinen Code zu steuern!
 
 			<img class="lazyload center middle" data-src="img/microbit-features-pins.png" alt="BBC micro:bit Pins" />
 			<div class="img-source">
@@ -540,48 +525,68 @@
 		</section>
 
 
-		<section id="IO-LEDs" class="step" data-rel-y="1500">
+		<section id="IO-LEDs" class="step" data-rel-x="1000" data-rel-y="-600" data-rotate-z="-135">
 			<h1>LEDs</h1>
-			LED steht für Light Emitting Diode. Der micro:bit verfügt über 25 individuell programmierbare LEDs,
-			mit denen du Texte, Zahlen und Bilder anzeigen kannst.
+			<img align="right" src="img/beating-heart.gif" alt="micro:bit with beating heart" /> LED steht für Light Emitting Diode. Der micro:bit verfügt über 25 individuell programmierbare LEDs, mit denen du Texte,
+			Zahlen und Bilder anzeigen kannst.
 
-
-			<img align="right" src="img/beating-heart.gif" alt="micro:bit with beating heart" />
 			<div class="img-source">
 				<a href="http://www.microbit.org/de/guide/features/">Micro:bit Educational Foundation</a>
 			</div>
+
 			<aside class="notes">
 
 			</aside>
 		</section>
 
-		<section id="IO-Sensoren" class="step" data-rel-y="1500">
+		<section id="IO-Sensoren" class="step" data-rel-x="200" data-rel-y="-1000" data-rotate-z="-180">
 			<h1>Sensoren</h1>
+			<img align="right" src="img/microbit-features-compass.png" alt="micro:bit Kompass" />
 			<ul>
 				<li>Lichtsensor</li>
-				<li>Beschleunigungssensor</li>
+				<li>Beschleunigungssensor (Accelerometer)</li>
 				<li>Temperatursensor</li>
 				<li>Kompass</li>
 			</ul>
-			Findest du diese auf deinem micro:bit?
+			<q>Findest du diese Bauteile auf deinem micro:bit?</q>
 
-			<img align="right" src="img/microbit-features-compass.png" alt="micro:bit Kompass" />
 			<div class="img-source">
 				<a href="http://www.microbit.org/de/guide/features/">Micro:bit Educational Foundation</a>
 			</div>
-
-
-
 
 			<aside class="notes">
 
 			</aside>
 		</section>
 
-		<section id="Fazit" class="step" data-rel-x="1000" data-rel-y="1000" data-rotate-y="-180">
+		<section id="BBC-Microbit" class="step no-dim" data-rel-x="-3000" data-rel-y="475" data-scale="0.01" data-rotate-z="-180">
+
+			<h1 class="title">BBC micro:bit Hardware</h1>
+			<img class="lazyload responsive" data-src="img/microbit-hardware.png" alt="BBC micro:bit Hardware Übersicht" />
+			<div class="img-source">
+				<a href="http://www.microbit.org/de/guide/features/">Micro:bit Educational Foundation</a>
+			</div>
+
+			<aside class="notes">
+
+			</aside>
+		</section>
+
+		<section id="BBC-Microbit-front" class="step no-dim-future" data-rel-x="2" data-rel-y="0" data-scale="0.005" data-rotate-z="-180">
+
+		</section>
+
+		<section id="BBC-Microbit-back" class="step no-dim-future" data-rel-x="-4" data-rel-y="0" data-scale="0.005" data-rotate-z="-180">
+
+		</section>
+
+		<section id="Fazit" class="step" data-x="0" data-rel-y="2500" data-rotate-y="0" data-scale="1">
 
 			<h1 class="title">Fazit</h1>
 
+			<aside class="notes">
+
+			</aside>
 		</section>
 
 		<section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10" style="pointer-events: none;">
@@ -604,6 +609,9 @@
 				</li>
 				<li>...</li>
 			</ul>
+			<aside class="notes">
+
+			</aside>
 		</section>
 	</div>
 
