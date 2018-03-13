@@ -7,7 +7,7 @@
 
 Präsentation in HTML: "Eine Einführung in die Informatik".
 
-[Präsentation starten!](https://stritti.github.io/girlsday-einfuehrung-informatik)
+## [▶ Präsentation starten](https://stritti.github.io/girlsday-einfuehrung-informatik)
 
 
 
@@ -20,6 +20,13 @@ Spaß an der Informatik fördern und mit möglichst anschaulichen mitteln zeigen
 kompliziert ist, wie viele sich das vorstellen.
 
 Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
+
+# Interessante Links
+
+* BBC micro:bit Homepage: http://microbit.org/
+* MakeCode für micro:bit: https://makecode.microbit.org/
+* Awesome micro:bit: https://github.com/carlosperate/awesome-microbit
+* Einige Infokarten zu speziellen Themen: https://www.maplin.co.uk/microbit
 
 # Entwicklung
 
@@ -77,5 +84,9 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
 * [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
 * Herzlichen Dank all denen, die so schöne Fotos zur freien Ferfüung bereitstellen!
+
+# Lizenz
+
+[MIT License](LICENSE)
 
 [⬆ nach oben](#einführung-in-die-informatik)
