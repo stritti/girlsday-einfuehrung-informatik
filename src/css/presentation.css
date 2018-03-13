@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC);
+
 /*
     We display a fallback message for users with browsers that don't support
     all the features required by it. All of the content will be still fully
@@ -7,8 +10,7 @@
 */
 
 .fallback-message {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.3;
 
 	width: 780px;
@@ -36,12 +38,21 @@
 
 body {
 	-webkit-font-smoothing: antialiased;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif;
+	font-family: Neucha, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	min-height: 740px;
 	background: rgb(50, 50, 50);
 	color: rgb(240, 240, 240);
 	line-height: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patrick Hand SC",sans-serif;
+  font-weight: 400
 }
 
 /*
@@ -57,10 +68,9 @@ body {
 	margin: 20px auto;
 	padding: 40px 60px;
 
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif;
+	font-family: Neucha, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 30px;
-	letter-spacing: 2px;
+	letter-spacing: 0.2rem;
 }
 
 .step .right {
@@ -220,10 +230,16 @@ small {
 }
 
 img {
-	width: 300px;
+	width: 400px;
 }
 
 img.responsive {
+	border: 2px solid #41403E;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+	border-bottom-right-radius: 225px 15px;
+	border-bottom-left-radius: 15px 255px;
+
 	overflow: hidden;
 	object-fit: cover;
 	top: 0;
@@ -245,6 +261,11 @@ img.responsive {
 }
 
 .img-title {
+	border: 2px solid #41403E;
+	border-top-left-radius: 255px 15px;
+	border-top-right-radius: 15px 225px;
+	border-bottom-right-radius: 225px 15px;
+	border-bottom-left-radius: 15px 255px;
 	background-color: rgb(50, 50, 50);
 	color: #fff;
 	display: inline;
@@ -360,8 +381,7 @@ body.impress-mouse-timeout {
 	padding: 1em;
 	text-align: center;
 	z-index: 100;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .impress-enabled #impress-help td {
 	padding-left: 1em;
@@ -387,6 +407,12 @@ body.impress-mouse-timeout {
 }
 .impress-enabled #impress-toolbar {
 	pointer-events: auto;
+}
+.impress-enabled #impress-toolbar button,
+.impress-enabled #impress-toolbar select,
+.impress-enabled #impress-toolbar option {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	color: #eeeeee;
 }
 .impress-enabled #impress-console-button {
 	pointer-events: auto;
