@@ -301,6 +301,14 @@ img.responsive {
 	content: "";
 }
 
+img.watermark {
+	position: fixed;
+	width: 3rem;
+	opacity: 0.3;
+	right: 2rem;
+	top: 2rem;
+	transition: opacity 2s;
+}
 /****************** Background images **********************************************/
 
 img.bg {
