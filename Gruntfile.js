@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 		copy: {
 			html: {
 				files: [
-					{ cwd: "src", src: "index.html", dest: "output/", expand: true }
+					{ cwd: "src", src: "*.html", dest: "output/", expand: true }
 				]
 			},
 			css: {
@@ -41,11 +41,11 @@ module.exports = function(grunt) {
 						src: "lazyload.min.js",
 						dest: "output/js"
 					} /*,
-          { 
-            expand: true, 
-            cwd: 'node_modules/impress.js/js', 
-            src: 'impress.js', 
-            dest: 'output/js' 
+          {
+            expand: true,
+            cwd: 'node_modules/impress.js/js',
+            src: 'impress.js',
+            dest: 'output/js'
          },        */
 				]
 			}
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 						"./output/js/presentation.makecode-blocks.js",
 						"./output/js/presentation.svg.js"
 					]
-					/*'./output/js/impress.min.js': [ 
+					/*'./output/js/impress.min.js': [
             './output/js/impress.js' ]*/
 				}
 			}
@@ -72,7 +72,6 @@ module.exports = function(grunt) {
 			},
 			livereload: {
 				files: [
-					"src/*",
 					"src/css/**/*.css",
 					"src/svg/**/*.svg",
 					"src/**/*.html",
