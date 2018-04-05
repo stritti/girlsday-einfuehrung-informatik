@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Girls' Day - Eine Einführung in die Informatik</title>
+	<meta name="description" content="Girls' Day - Eine Einführung in die Informatik">
+	<meta name="author" content="Stephan Strittmatter">
+	<meta name="viewport" content="width=1400">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
+	<link rel="stylesheet" href="css/presentation.css" />
+
+</head>
+
+<body class="impress-not-supported">
+	<div class="fallback-message">
+		<p>Dein Web-Browser
+			<b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine vereinfachte Version der
+			Präsentation angezeigt.</p>
+		<p>Für eine bestmögliche Anzeige verwende bitte eine aktuelle Version vom
+			<b>Chrome</b>,
+			<b>Safari</b> oder
+			<b>Firefox</b>.</p>
+	</div>
+
+	<img src="img/Logo_sybit_2014_Bildmarke_weiß.png" alt="Sybit Bildmarke" class="watermark" />
+
+	<div id="impress" data-transition-duration="1000">
+			<section id="Titel" class="step" data-x="-1500" data-y="-1000" data-scale="1">
+					<h1 class="title">Live Coding</h1>
+
+					<p>
+						<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop" />
+						<img class="lazyload " data-src="img/blocks.gif" alt="Blocks Editor" style="position:absolute;right:290px;top:480px;width:230px"/>
+					</p>
+
+					<div class="img-source">
+						<a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures / pixabay.com, Creative Commons CC0 </a>,
+						<a href="http://www.microbit.org/de/guide/quick/">Micro:bit Educational Foundation</a>
+					</div>
+
+					<aside class="notes">
+
+					</aside>
+
+			</section>
+
+	</div>
+
+
+	<div id="impress-toolbar"></div>
+
+	<div class="impress-progressbar">
+		<div></div>
+	</div>
+	<!--<div class="impress-progress"></div>-->
+
+	<div id="impress-help"></div>
+
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/lazyload.min.js"></script>
+	<script type="text/javascript" src="./js/impress.js"></script>
+	<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			impress().init();
+			$("code.js-blocks").blocks();
+			$("img.lazyload").lazyload();
+		});
+
+	</script>
+
+</body>
+
+</html>
