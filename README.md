@@ -83,7 +83,6 @@ Wird kein Parameter angegeben, wird automatisch ein `watch` und ein `LiveReload`
 * [impress.js](https://github.com/bartaz/impress.js), MIT License
 * [lazyload](https://github.com/tuupola/jquery_lazyload), MIT License
 * [EMOJI CSS](https://afeld.github.io/emoji-css/), MIT License
-* [grunt-html-pdf](https://www.npmjs.com/package/grunt-html-pdf), MIT License
 
 # Pull-Requests sind willkommen
 
@@ -97,7 +96,7 @@ Verbesserungen an der Präsentation sind als Pull-Request herzlich willkommen.
   * Klasse, dass ich da auch bei der [Übersetzung ins Deutsche](https://makecode.com/translate) mithelfen konnte!
   * Großartig ist auch der Support des Teams bei der Erstellung dieses Projektes (z.B. [hier](https://github.com/Microsoft/pxt-microbit/issues/623))
 * [impress.js](http://github.com/bartaz/impress.js) für die großartige Grundlage zur Erstellung von Präsentationen.
-* Herzlichen Dank all denen, die so schöne Fotos zur freien Ferfügung bereitstellen!
+* Herzlichen Dank all denen, die so schöne Fotos zur freien Verfügung bereitstellen (z.B. auf [Pixabay](https://pixabay.com) )!
 
 # Lizenz
 
