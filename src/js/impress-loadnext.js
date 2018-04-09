@@ -19,8 +19,5 @@
 				window.location = nextImpress;
 		  }, false );
 		}
-
-
-
 	});
 })(document);
