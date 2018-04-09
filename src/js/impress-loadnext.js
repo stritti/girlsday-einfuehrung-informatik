@@ -7,8 +7,7 @@
 (function (document) {
 	"use strict";
 
-	// Add prev and next classes to the siblings of the newly entered active step element
-	// Remove prev and next classes from their current step elements
+	// load next page if attribute is set
 	document.addEventListener("impress:stepenter", function (event) {
 
 		var nextImpress = event.srcElement.dataset.nextImpress;
