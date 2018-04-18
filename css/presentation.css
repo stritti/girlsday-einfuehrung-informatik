@@ -284,6 +284,10 @@ img.responsive {
 	position: relative;
 }
 
+.vignette-vertical {
+	position: absolute;
+}
+
 .vignette img {
 	display: block;
 }
