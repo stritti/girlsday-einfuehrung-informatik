@@ -36,7 +36,7 @@
 
 			<p>
 				<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop" />
-				<a href="index.html#/Live_Coding" style="position: absolute; bottom:5rem;left: 2rem;">
+				<a href="index.html#/BBC-Microbit-back" style="position: absolute; bottom:5rem;left: 2rem;">
 					<i class="em em-arrow_backward"></i>
 				</a>
 			</p>
@@ -59,13 +59,14 @@
 			</div>
 
 			<aside class="notes">
-
+				<img src="https://pxt.azureedge.net/blob/8690130ed1c03177a5962825689f823e206278e9/static/courses/csintro/making/ide-tour.png"
+				/>
 			</aside>
 		</section>
 
 		<section id="Makecode" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-			<div class="center middle" style="font-size: 4rem">
+			<div class="center middle" style="font-size: 3.5rem">
 
 				<i class="em em-point_right"></i>
 				<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>
@@ -98,7 +99,7 @@
 
 
 			<aside class="notes">
-
+				"Hello World" ist das Grundbeispiel, in der Programmierung das den ersten Einstieg bietet.
 			</aside>
 		</section>
 
@@ -219,7 +220,7 @@
 			<h1>Mathematik: Random</h1>
 
 			<pre><code id="code-random" class="js-blocks" data-snippet="true">
-				basic.showNumber(Math.random(5))
+				basic.showNumber(Math.random(2))
 			</code></pre>
 
 			<aside class="notes">
@@ -231,21 +232,103 @@
 		<section id="Projekt_SSP-Entschiedung" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
 			<h1>Logik: Wenn &hellip;, dann &hellip;</h1>
 			<p>
-				Wenn "0", dann "Schere"; wenn "1", dann "Stein"; sonst "Papier"
+				Schere Stein Papier als LED-Ausgabe: Wenn "0", dann "Schere"; wenn "1", dann "Stein"; sonst "Papier"
 			</p>
 
-			<pre><code id="code-random" class="js-blocks" data-snippet="true">
+			<pre><code id="code-if-simple" class="js-blocks" data-snippet="true">
 				if (true) {
 
 				} else {
 
 				}
 			</code></pre>
-
 			<aside class="notes">
 
 			</aside>
 		</section>
+
+		<section id="Projekt_SSP-Entschiedung-erweitert" class="step" data-rel-x="250" data-rel-y="0" data-scale="0.4">
+			<p>Über das
+				<i class="em em-gear"></i> kann man die Bedingung anpassen:</p>
+			<pre><code id="code-if-extended" class="js-blocks" data-snippet="true">
+						let icon = 0
+
+						if (icon == 0) {
+							basic.showIcon(IconNames.Scissors)
+					  } else if (icon == 1) {
+							basic.showLeds(`
+								 # # # # .
+								 # # # # #
+								 # # # # #
+								 # # # # #
+								 . # # # #
+								 `)
+					  } else {
+							basic.showIcon(IconNames.Square)
+					  }
+
+				</code></pre>
+			<p>Hilfe:
+				<a href="http://eis.ph-noe.ac.at/microbit02/">http://eis.ph-noe.ac.at/microbit02/</a>
+			</p>
+			<aside class="notes">
+
+			</aside>
+		</section>
+
+		<section id="Projekt_SSP-Installation" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+			<h1>Upload per USB</h1>
+
+			<img class="responsive lazyload" data-src="img/microbit-usb.jpg" />
+			<p>Hilfe:
+				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a program</a>
+			</p>
+			<div class="img-source">
+				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License (MIT)</a>
+			</div>
+
+		</section>
+
+		<section id="Projekt_SSP-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+
+			<img class="lazyload" data-src="img/02rock_paper_cissors04-300x248.png" />
+			<h1 class="img-title">Ausprobieren
+				<i class="em em-muscle"></i>
+			</h1>
+			<div class="img-source">
+				<a href="http://eis.ph-noe.ac.at/microbit02/">Pädagogische Hochschule Niederösterreich</a>
+			</div>
+
+
+		</section>
+
+		<section id="Rundgang-Sybit" class="step" data-rel-x="5000" data-y="0" data-scale="1">
+
+			<img class="responsive lazyload" data-src="http://78.media.tumblr.com/1d2abad9366d04a0f9177bc84af90aa9/tumblr_inline_oimt7cvxrc1ttlxot_1280.jpg"
+			/>
+			<h1 class="img-title">Rundgang durch Sybit
+			</h1>
+			<div class="img-source">
+				<a href="http://digitalnativealliance.tumblr.com/post/154844332644/abschlussarbeit-bei-sybit">Digital Native Alliance / tumblr.com</a>
+			</div>
+
+		</section>
+
+		<section id="Mittagspause" class="step" data-rel-x="0" data-rel-y="1500" data-scale="1" data-next-impress="projekte.html">
+			<img class="responsive lazyload" data-src="img/pizza-1150031_1920.jpg" />
+			<h1 class="img-title">Mittagspause
+				<i class="em em-pizza"></i>
+				<i class="em em-knife_fork_plate"></i>
+			</h1>
+			<div class="img-source">
+				<a href="https://pixabay.com/de/pizza-vegetarische-pizza-k%C3%A4se-1150031/">Free-Photos / pixabay.com, Creative Commons CC0 </a>,
+			</div>
+
+			<a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
+				<i class="em em-arrow_forward"></i>
+			</a>
+		</section>
+
 
 		<section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10" style="pointer-events: none;">
 			<p></p>
