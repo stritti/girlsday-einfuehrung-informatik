@@ -11,7 +11,7 @@
 ## [▶ Präsentation starten](https://stritti.github.io/girlsday-einfuehrung-informatik)
 
 
-> Diese Präsentation ist komplett in Deutsch gehalten. Sie ist auf Teeanager ab dem 12 Lebensjahr ausgerichtet und soll ihnen den Spaß an der Informatik zeigen. Um die Hürden möglichst niedrig zu halten, ist der Inhalt Deutsch gehalten.
+> Diese Präsentation ist komplett in Deutsch gehalten. Sie ist auf Teeanager ab dem 12 Lebensjahr ausgerichtet und soll ihnen den Spaß an der Informatik zeigen. Um die Hürden möglichst niedrig zu halten, ist der Inhalt Deutsch.
 
  **English:** Presentation in HTML: **"An introduction to computer science"**.
 
