@@ -5,18 +5,24 @@
 
 # Einführung in die Informatik
 
-Präsentation in HTML: "Eine Einführung in die Informatik".
+
+**Deutsch:** Präsentation in HTML: **"Eine Einführung in die Informatik"**.
 
 ## [▶ Präsentation starten](https://stritti.github.io/girlsday-einfuehrung-informatik)
 
 
+> Diese Präsentation ist komplett in Deutsch gehalten. Sie ist auf Teeanager ab dem 12 Lebensjahr ausgerichtet und soll ihnen den Spaß an der Informatik zeigen. Um die Hürden möglichst niedrig zu halten, ist der Inhalt Deutsch gehalten.
+
+ **English:** Presentation in HTML: **"An introduction to computer science"**.
+
+ > This presentation is completely in German. It is aimed at tea managers from the age of 12 and should show them the fun of computer science. To keep the hurdles as low as possible, the content is in German.
 
 # Workshop
 
 Der Inhalt dieser Präsentation ist für einen eintägigen Workshop mit Jugendlichen ab der 5. Klasse gedacht.
 
 Dabei kann sicher nicht in die komplette Tiefe der Programmierung abgetaucht werden. Der Tag soll vielmehr den
-Spaß an der Informatik fördern und mit möglichst anschaulichen mitteln zeigen, dass das gar nciht so
+Spaß an der Informatik fördern und mit möglichst anschaulichen Mitteln zeigen, dass das gar nicht so
 kompliziert ist, wie viele sich das vorstellen.
 
 Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
