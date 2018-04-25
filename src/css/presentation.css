@@ -284,8 +284,10 @@ img.responsive {
 	position: relative;
 }
 
-.vignette-vertical {
-	position: absolute;
+.vignette-vertical img {
+	object-fit:  inherit;
+	height: 100%;
+	width: auto;
 }
 
 .vignette img {
