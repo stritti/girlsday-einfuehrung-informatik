@@ -15,7 +15,7 @@
 
  **English:** Presentation in HTML: **"An introduction to computer science"**.
 
- > This presentation is completely in German. It is aimed at tea managers from the age of 10 and should show them the fun of computer science. To keep the hurdles as low as possible, the content is in German.
+ > This presentation is completely in German. It is aimed teenagers from the age of 10 and should show them the fun of computer science. To keep the hurdles as low as possible, the content is in German.
 
 # Workshop
 
