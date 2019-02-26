@@ -29,7 +29,7 @@ Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-d
 
 ## micro:bit Cheat Sheet
 
-Für den Workshop haben wir das [micro:bit Cheat Sheet](./docs/microbit-cheat-sheet.docx) mit den wichtigsten Block-Elementen erstellt.
+Für den Workshop haben wir das **[micro:bit Cheat Sheet](./docs/microbit-cheat-sheet.docx)** mit den wichtigsten Block-Elementen erstellt.
 
 # Interessante Links
 
