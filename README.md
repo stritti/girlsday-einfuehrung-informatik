@@ -27,6 +27,10 @@ kompliziert ist, wie viele sich das vorstellen.
 
 Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
 
+## micro:bit Cheat Sheet
+
+Für den Workshop haben wir das [micro:bit Cheat Sheet](./docs/Cheat Sheet.docx) mit den wichtigsten Block-Elementen erstellt.
+
 # Interessante Links
 
 - BBC micro:bit: http://microbit.org/
