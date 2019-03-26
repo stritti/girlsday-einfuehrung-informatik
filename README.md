@@ -24,11 +24,11 @@ Dabei kann sicher nicht in die komplette Tiefe der Programmierung abgetaucht wer
 Spaß an der Informatik fördern und mit möglichst anschaulichen Mitteln zeigen, dass das gar nicht so
 kompliziert ist, wie viele sich das vorstellen.
 
-Diese Präsentation ist Grundlage für den [Girls' Day 2018](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
+Diese Präsentation ist Grundlage für den [Girls' Day 2019](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
 
 ## micro:bit Cheat Sheet
 
-Für den Workshop haben wir das **[micro:bit Cheat Sheet](./docs/microbit-cheat-sheet.docx)** mit den wichtigsten Block-Elementen erstellt.
+Für den Workshop haben wir das **[micro:bit Cheat Sheet (Word)](./docs/microbit-cheat-sheet.docx)** / **[micro:bit Cheat Sheet (pdf)](./docs/microbit-cheat-sheet.pdf)** mit den wichtigsten Block-Elementen erstellt.
 
 # Interessante Links
 
