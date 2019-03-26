@@ -18,15 +18,14 @@
     "lazyload": "^2.0.0-beta.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.3.1",
-    "grunt": "^1.0.3",
+    "browser-sync": "^2.26.3",
+    "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-contrib-livereload": "^0.1.2",
+    "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-nodeunit": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "standard": "^12.0.1"
   },
@@ -36,9 +35,9 @@
     "test": "standard"
   },
   "standard": {
-  "ignore": [
-    "**/output/",
-    "**/impress.js"
-  ]
-}
+    "ignore": [
+      "**/output/",
+      "**/impress.js"
+    ]
+  }
 }
