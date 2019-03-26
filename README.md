@@ -1,4 +1,4 @@
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/stritti/girlsday-einfuehrung-informatik)
+[![Build Status](https://travis-ci.org/stritti/girlsday-einfuehrung-informatik.svg?branch=master)](https://travis-ci.org/stritti/girlsday-einfuehrung-informatik)
 [![GitHub license](https://img.shields.io/github/license/stritti/girlsday-einfuehrung-informatik.svg)](https://github.com/stritti/girlsday-einfuehrung-informatik/blob/master/LICENSE)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
