@@ -2,377 +2,530 @@
 
 <html lang="de">
 
-<head>
-	<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Girls' Day - Teil 2: Eine Einführung in die Informatik</title>
+        <meta name="description" content="Girls' Day - Eine Einführung in die Informatik">
+        <meta name="author" content="Stephan Strittmatter">
+        <meta name="viewport" content="width=1400">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css"/>
+        <link rel="stylesheet" href="css/presentation.css"/>
+
+    </head>
+
+    <body class="impress-not-supported">
+        <div class="fallback-message">
+            <p>Dein Web-Browser
+                <b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine
+                vereinfachte
+                Version der
+                Präsentation angezeigt.</p>
+            <p>Für eine bestmögliche Anzeige verwende bitte eine aktuelle Version vom
+                <b>Chrome</b>,
+                <b>Safari</b> oder
+                <b>Firefox</b>.</p>
+        </div>
+
+        <img src="img/Logo_sybit_2014_Bildmarke_weiß.png" alt="Sybit Bildmarke" class="watermark"/>
 
-	<title>Girls' Day - Teil 2: Eine Einführung in die Informatik</title>
-	<meta name="description" content="Girls' Day - Eine Einführung in die Informatik">
-	<meta name="author" content="Stephan Strittmatter">
-	<meta name="viewport" content="width=1400">
-	<meta name="apple-mobile-web-app-capable" content="yes">
+        <div id="impress" data-transition-duration="1000">
 
-	<link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
-	<link rel="stylesheet" href="css/presentation.css" />
+            <section id="Titel" class="step" data-x="-1500" data-y="-1000" data-scale="1">
+                <h1 class="title">Live Coding</h1>
 
-</head>
+                <p>
+                    <img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
+                    <a href="index.html#/BBC-Microbit-back" style="position: absolute; bottom:5rem;left: 2rem;">
+                        <i class="em em-arrow_backward"></i>
+                    </a>
+                </p>
 
-<body class="impress-not-supported">
-	<div class="fallback-message">
-		<p>Dein Web-Browser
-			<b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine vereinfachte Version der
-			Präsentation angezeigt.</p>
-		<p>Für eine bestmögliche Anzeige verwende bitte eine aktuelle Version vom
-			<b>Chrome</b>,
-			<b>Safari</b> oder
-			<b>Firefox</b>.</p>
-	</div>
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
+                        pixabay.com, Creative
+                        Commons CC0 </a>
+                </div>
 
-	<img src="img/Logo_sybit_2014_Bildmarke_weiß.png" alt="Sybit Bildmarke" class="watermark" />
+                <aside class="notes">
+                </aside>
 
-	<div id="impress" data-transition-duration="1000">
+            </section>
 
-		<section id="Titel" class="step" data-x="-1500" data-y="-1000" data-scale="1">
-			<h1 class="title">Live Coding</h1>
+            <section id="Entwicklungsumgebung" class="step" data-x="-1350" data-y="-880" data-scale="0.2">
+                <h1>Die Entwicklungsumgebung</h1>
+                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            src="https://makecode.microbit.org/#pub:_JeA1kw7kvgcW"
+                            frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+                </div>
 
-			<p>
-				<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop" />
-				<a href="index.html#/BBC-Microbit-back" style="position: absolute; bottom:5rem;left: 2rem;">
-					<i class="em em-arrow_backward"></i>
-				</a>
-			</p>
+                <aside class="notes">
+                    <img src="https://pxt.azureedge.net/blob/8690130ed1c03177a5962825689f823e206278e9/static/courses/csintro/making/ide-tour.png"
+                    />
+                </aside>
+            </section>
 
-			<div class="img-source">
-				<a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures / pixabay.com, Creative Commons CC0 </a>,
-			</div>
+            <section id="Makecode" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-			<aside class="notes">
+                <div class="center middle" style="font-size: 3.5rem">
 
-			</aside>
+                    <i class="em em-point_right"></i>
+                    <a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>
+                    <i class="em em-point_left"></i>
+                    <br/>
+                    <br/>
 
-		</section>
+                    <i class="em em-three_button_mouse"></i>&nbsp;
+                    <i class="em em-two_women_holding_hands"></i>&nbsp;
+                    <i class="em em-keyboard"></i>
 
-		<section id="Entwicklungsumgebung" class="step" data-x="-1350" data-y="-880" data-scale="0.2">
-			<h1>Die Entwicklungsumgebung</h1>
-			<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-				<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_JeA1kw7kvgcW"
-				frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
-			</div>
 
-			<aside class="notes">
-				<img src="https://pxt.azureedge.net/blob/8690130ed1c03177a5962825689f823e206278e9/static/courses/csintro/making/ide-tour.png"
-				/>
-			</aside>
-		</section>
+                </div>
 
-		<section id="Makecode" class="step" data-rel-x="1500" data-y="0" data-scale="1">
+                <aside class="notes">
+                    Elemente des Editors erklären &hellip;
+                </aside>
+            </section>
 
-			<div class="center middle" style="font-size: 3.5rem">
+            <section id="Hello_World" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-				<i class="em em-point_right"></i>
-				<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>
-				<i class="em em-point_left"></i>
-				<br/>
-				<br/>
+                <h1>Hello World!</h1>
+                <p>
+                    <em>"Hello World!"</em> ist ein typisches Startbeispiel in der Informatik:
+                    <img src="img/hello-world-1333103_1920.jpg" class="right vignette"/>
+                </p>
+                <pre><code id="hello-world" class="js-blocks" data-snippet="false">
+                        basic.showString("Hello World!")
+                        </code></pre>
 
-				<i class="em em-three_button_mouse"></i>&nbsp;
-				<i class="em em-two_women_holding_hands"></i>&nbsp;
-				<i class="em em-keyboard"></i>
 
+                <aside class="notes">
+                    "Hello World" ist das Grundbeispiel, in der Programmierung das den ersten Einstieg bietet.
+                </aside>
+            </section>
 
-			</div>
+            <section id="Hello_World_2" class="step" data-rel-x="-180" data-rel-y="0" data-scale="0.6">
 
-			<aside class="notes">
-				Elemente des Editors erklären &hellip;
-			</aside>
-		</section>
+                <p class="middle">
+                    <i class="em em-two_women_holding_hands"></i>
+                    <q>Lasst nun euern micro:bit "Hallo" sagen!</q>
+                </p>
 
-		<section id="Hello_World" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-			<h1>Hello World!</h1>
-			<p>
-				<em>"Hello World!"</em> ist ein typisches Startbeispiel in der Informatik:
-				<img src="img/hello-world-1333103_1920.jpg" class="right vignette" />
-			</p>
-			<pre><code id="hello-world" class="js-blocks" data-snippet="false">
-				basic.showString("Hello World!")
-				</code></pre>
+                <aside class="notes">
 
+                </aside>
+            </section>
 
-			<aside class="notes">
-				"Hello World" ist das Grundbeispiel, in der Programmierung das den ersten Einstieg bietet.
-			</aside>
-		</section>
+            <section id="Hello_World_3" class="step" data-rel-x="50" data-rel-y="50" data-scale="0.3">
 
-		<section id="Hello_World_2" class="step" data-rel-x="-180" data-rel-y="0" data-scale="0.6">
+                <p class="middle">
+                    <i class="em em-two_women_holding_hands"></i>
+                    <q>&hellip; und ein paar
+                        <i class="em em-heart"></i>
+                        <i class="em em-smiley"></i>
+                        <i class="em em-hearts"></i> ausgeben</q>
+                </p>
 
-			<p class="middle">
-				<i class="em em-two_women_holding_hands"></i>
-				<q>Lasst nun euern micro:bit "Hallo" sagen!</q>
-			</p>
+                <aside class="notes">
 
+                </aside>
+            </section>
 
-			<aside class="notes">
 
-			</aside>
-		</section>
+            <section id="Hello_World_final" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-		<section id="Hello_World_3" class="step" data-rel-x="50" data-rel-y="50" data-scale="0.3">
+                <h1>Unser Hello World!</h1>
 
-			<p class="middle">
-				<i class="em em-two_women_holding_hands"></i>
-				<q>&hellip; und ein paar
-					<i class="em em-heart"></i>
-					<i class="em em-smiley"></i>
-					<i class="em em-hearts"></i> ausgeben</q>
-			</p>
+                <img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
 
-			<aside class="notes">
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
+                        pixabay.com</a>, Creative
+                    Commons CC0
+                </div>
 
-			</aside>
-		</section>
+                <aside class="notes">
 
+                </aside>
+            </section>
 
-		<section id="Hello_World_final" class="step" data-rel-x="1500" data-y="0" data-scale="1">
+            <section id="Hello_World_final_code" class="step" data-rel-x="150" data-y="150" data-scale="0.2">
 
-			<h1>Unser Hello World!</h1>
+                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            src="https://makecode.microbit.org/#pub:_J15JbCEJR2ki"
+                            frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+                </div>
 
-			<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop" />
+                <aside class="notes">
+                </aside>
+
+            </section>
 
-			<div class="img-source">
-				<a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures / pixabay.com, Creative Commons CC0 </a>,
-			</div>
+            <section id="Hello_World_Installation" class="step" data-rel-x="-200" data-rel-y="1000" data-scale="1">
+                <h1>Upload per USB</h1>
 
-			<aside class="notes">
+                <img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
+                <p>Hilfe:
+                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
+                        program</a>
+                </p>
+                <div class="img-source">
+                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
+                        (MIT)</a>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Rundgang-Sybit" class="step" data-rel-x="2000" data-y="0" data-scale="1">
 
-			</aside>
-		</section>
-
-		<section id="Hello_World_final_code" class="step" data-rel-x="150" data-y="150" data-scale="0.2">
-
-
-			<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-				<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_J15JbCEJR2ki"
-				frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
-			</div>
-
-
-			<aside class="notes">
-
-			</aside>
-		</section>
-
-		<section id="Hello_World_Installation" class="step" data-rel-x="0" data-rel-y="1500" data-scale="1">
-			<h1>Upload per USB</h1>
-
-			<img class="responsive lazyload" data-src="img/microbit-usb.jpg" />
-			<p>Hilfe:
-				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a program</a>
-			</p>
-			<div class="img-source">
-				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License (MIT)</a>
-			</div>
-
-		</section>
-
-		<section id="Projekt_Schere-Stein-Papier" class="step" data-x="0" data-y="1500" data-scale="1">
-
-			<h1>Projekt: Schere - Stein - Papier </h1>
-
-			<img class="responsive" style="background-color: bisque;" src="img/fingers-149296.svg" alt="Schere-Stein-Papier" />
-
-			<div class="img-source">
-				<a href="https://pixabay.com/de/finger-faust-h%C3%A4nde-papier-stein-149296/">OpenClipart-Vectors / pixabay.com, Creative Commons CC0 </a>,
-			</div>
-			<aside class="notes">
-
-			</aside>
-		</section>
-
-		<section id="Projekt_SSP-Userstory" class="step" data-rel-y="1500" data-scale="1">
-			<h1>Userstory</h1>
-			<p>
-				<q>Ich möchte meinen micro:bit schütteln und dann ein passendes Logo angezeigt bekommen.</q>
-			</p>
-			<hr />
-			<p>
-				Verifiziere, dass &hellip;
-				<ul>
-					<li>&hellip; der micro:bit auf Schütteln reagiert.</li>
-					<li>&hellip; beim Shütteln ein zufällig ausgewähltes Bild ("Schere", "Stein" bzw. "Papier") angezeigt wird.</li>
-					<li>&hellip; beim Drücken einer Taste der Bildschirm gelöscht wird.</li>
-				</ul>
-			</p>
-		</section>
-
-		<section id="Projekt_SSP-Shake-it" class="step" data-rel-y="1500" data-scale="1">
-			<h1>Eingabe: Beschleunigungssensor (Accelerometer)</h1>
-			<img class="right" src="img/duck-2254341_1920.jpg" alt="Schüttelnde Ente" />
-
-			<pre><code id="code-shake" class="js-blocks" data-snippet="true">
-				input.onGesture(Gesture.Shake, () => {
-
-				})
-				</code></pre>
-
-			<div class="img-source">
-				<a href="https://pixabay.com/de/ente-spritzen-wasserspritzer-2254341/">manfredrichter / pixabay.com, Creative Commons CC0 </a>,
-			</div>
-		</section>
-
-
-		<section id="Projekt_SSP-Zufall" class="step" data-rel-y="1500" data-scale="1">
-			<h1>Zufällig?</h1>
-			<img class="responsive lazyload" data-src="img/roll-the-dice-1502706_1920.jpg" />
-			<div class="img-source">
-				<a href="https://pixabay.com/de/w%C3%BCrfeln-w%C3%BCrfelspiel-brettspiel-1502706/">955169 / pixabay.com, Creative Commons CC0 </a>,
-			</div>
-		</section>
-
-
-		<section id="Projekt_SSP-Zufall-2" class="step" data-rel-x="0" data-rel-y="0" data-scale="0.4">
-			<h1>Mathematik: Random</h1>
-
-			<pre><code id="code-random" class="js-blocks" data-snippet="true">
-				basic.showNumber(Math.random(2))
-			</code></pre>
-
-			<aside class="notes">
-				Mit Zufallszahlen kann man in der Informatik scheinbar Zufällig etwas geschehen lassen. Das gehört zu den mathematischen
-				Elementen einer Programmiersprache.
-			</aside>
-		</section>
-
-		<section id="Projekt_SSP-Entschiedung" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
-			<h1>Logik: Wenn &hellip;, dann &hellip;</h1>
-			<p>
-				Schere Stein Papier als LED-Ausgabe: Wenn "0", dann "Schere"; wenn "1", dann "Stein"; sonst "Papier"
-			</p>
-
-			<pre><code id="code-if-simple" class="js-blocks" data-snippet="true">
-				if (true) {
-
-				} else {
-
-				}
-			</code></pre>
-			<aside class="notes">
-
-			</aside>
-		</section>
-
-		<section id="Projekt_SSP-Entschiedung-erweitert" class="step" data-rel-x="250" data-rel-y="0" data-scale="0.4">
-			<p>Über das
-				<i class="em em-gear"></i> kann man die Bedingung anpassen:</p>
-			<pre><code id="code-if-extended" class="js-blocks" data-snippet="true">
-						let icon = 0
-
-						if (icon == 0) {
-							basic.showIcon(IconNames.Scissors)
-					  } else if (icon == 1) {
-							basic.showLeds(`
-								 # # # # .
-								 # # # # #
-								 # # # # #
-								 # # # # #
-								 . # # # #
-								 `)
-					  } else {
-							basic.showIcon(IconNames.Square)
-					  }
-
-				</code></pre>
-			<p>Hilfe:
-				<a href="http://eis.ph-noe.ac.at/microbit02/">http://eis.ph-noe.ac.at/microbit02/</a>
-			</p>
-			<aside class="notes">
-
-			</aside>
-		</section>
-
-		<section id="Projekt_SSP-Installation" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
-			<h1>Upload per USB</h1>
-
-			<img class="responsive lazyload" data-src="img/microbit-usb.jpg" />
-			<p>Hilfe:
-				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a program</a>
-			</p>
-			<div class="img-source">
-				<a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License (MIT)</a>
-			</div>
-
-		</section>
-
-		<section id="Projekt_SSP-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
-
-			<img class="lazyload" data-src="img/02rock_paper_cissors04-300x248.png" />
-			<h1 class="img-title">Ausprobieren
-				<i class="em em-muscle"></i>
-			</h1>
-			<div class="img-source">
-				<a href="http://eis.ph-noe.ac.at/microbit02/">Pädagogische Hochschule Niederösterreich</a>
-			</div>
-
-
-		</section>
-
-		<section id="Rundgang-Sybit" class="step" data-rel-x="5000" data-y="0" data-scale="1">
-
-			<img class="responsive lazyload" data-src="http://78.media.tumblr.com/1d2abad9366d04a0f9177bc84af90aa9/tumblr_inline_oimt7cvxrc1ttlxot_1280.jpg"
-			/>
-			<h1 class="img-title">Rundgang durch Sybit
-			</h1>
-			<div class="img-source">
-				<a href="http://digitalnativealliance.tumblr.com/post/154844332644/abschlussarbeit-bei-sybit">Digital Native Alliance / tumblr.com</a>
-			</div>
-
-		</section>
-
-		<section id="Mittagspause" class="step" data-rel-x="0" data-rel-y="1500" data-scale="1" data-next-impress="projekte.html">
-			<img class="responsive lazyload" data-src="img/pizza-1150031_1920.jpg" />
-			<h1 class="img-title">Mittagspause
-				<i class="em em-pizza"></i>
-				<i class="em em-knife_fork_plate"></i>
-			</h1>
-			<div class="img-source">
-				<a href="https://pixabay.com/de/pizza-vegetarische-pizza-k%C3%A4se-1150031/">Free-Photos / pixabay.com, Creative Commons CC0 </a>,
-			</div>
-
-			<a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
-				<i class="em em-arrow_forward"></i>
-			</a>
-		</section>
-
-
-		<section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10" style="pointer-events: none;">
-			<p></p>
-		</section>
-	</div>
-
-
-	<div id="impress-toolbar"></div>
-
-	<div class="impress-progressbar">
-		<div></div>
-	</div>
-	<!--<div class="impress-progress"></div>-->
-
-	<div id="impress-help"></div>
-
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/lazyload.min.js"></script>
-	<script type="text/javascript" src="./js/impress.js"></script>
-	<script type="text/javascript" src="./js/impress-loadnext.js"></script>
-	<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
-
-	<script>
-		$(document).ready(function () {
-			impress().init();
-			$("code.js-blocks").blocks();
-			$("img.lazyload").lazyload();
-		});
-
-	</script>
-
-</body>
+                <img class="responsive lazyload"
+                     data-src="http://78.media.tumblr.com/1d2abad9366d04a0f9177bc84af90aa9/tumblr_inline_oimt7cvxrc1ttlxot_1280.jpg"
+                />
+                <h1 class="img-title">Rundgang durch Sybit
+                </h1>
+                <div class="img-source">
+                    <a href="http://digitalnativealliance.tumblr.com/post/154844332644/abschlussarbeit-bei-sybit">Digital
+                        Native
+                        Alliance /
+                        tumblr.com</a>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Mittagspause" class="step" data-rel-x="0" data-rel-y="1200" data-scale="1">
+                <img class="responsive lazyload" data-src="img/pizza-1150031_1920.jpg"/>
+                <h1 class="img-title">Mittagspause
+                    <i class="em em-pizza"></i>
+                    <i class="em em-knife_fork_plate"></i>
+                </h1>
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/pizza-vegetarische-pizza-k%C3%A4se-1150031/">Free-Photos /
+                        pixabay.com</a>,
+                    Creative Commons
+                    CC0 </a>
+                </div>
+
+                <a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
+                    <i class="em em-arrow_forward"></i>
+                </a>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+
+            <section id="Wiederholung" class="step" data-rel-x="50" data-rel-y="880" data-scale="0.5">
+                <h1>Was haben wir bis jetzt gemacht?</h1>
+                <img class="lazyload responsive" src="img/lightbulb-2692247_1920.jpg" alt="Glühbirne and der Wand"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/gl%C3%BChbirne-konzept-kork-bulletin-2692247/">freeGraphicToday /
+                        pixabay.com, Creative Commons
+                        CC0 </a>
+                </div>
+
+                <aside class="notes">
+                    In die Runde fragen.
+                </aside>
+            </section>
+
+            <section id="Projekt_Karel" class="step" data-rel-x="-1500" data-rel-y="100" data-rotate-z="-45"
+                     data-scale="0.7">
+
+                <h1>
+                    ... und nun lernen wir Karel die LED kennen <i class="em em-smiley"></i>
+                </h1>
+                <img class="responsive lazyload" src="img/projects/karel_the_led.png" alt="Karel die LED"/>
+                <div class="img-source">
+                    Screenshot
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Karel_Buttons" class="step" data-rel-x="30" data-rel-y="-20" data-scale="0.01">
+                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            src="https://makecode.microbit.org/#pub:_WjM8D6U365y6" frameborder="0"
+                            sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Emoji_Transmitter" class="step" data-x="1400" data-y="1200" data-scale="1">
+                <h1>Projekt: Emoji Transmitter</h1>
+                <img class="responsive lazyload" style="background-color: bisque;" src="img/smiley-3692494_1920.jpg"
+                     alt="Emoji_Transmitter_Hand"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/photos/smiley-map-hand-emotion-symbol-3692494/">athree23 /
+                        pixabay.com</a>,
+                    Creative Commons CC0
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji-Userstory" class="step" data-rel-x="140" data-rel-y="-50" data-rotate-z="0"
+                     data-scale="0.1">
+                <h1>Userstory</h1>
+                <p>
+                    <q>Ich möchte eine geheime Nachricht senden und geheime Nachrichten empfangen.</q>
+                </p>
+                <hr/>
+                <div>
+                    Verifiziere, dass &hellip;
+                    <ul>
+                        <li>… du ein Emoji senden kannst, wenn du Taste B drückst</li>
+                        <li>… du eine Nachricht empfangen und als Emoji anzeigen kannst</li>
+                    </ul>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Receive" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
+                <h1>Funk: Empfangen</h1>
+
+                <img class="responsive lazyload" src="img/mobile-phone-2223993_1920.jpg" alt="Mobile phone"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/illustrations/wlan-web-friends-community-sms-2088667/">geralt /
+                        pixabay.com</a>,
+                    Creative Commons
+                    CC0
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Receive_Code" class="step" data-rel-x="-100" data-rel-y="10" data-scale="0.01">
+                <code id="code-receivedNumber" class="js-blocks" data-snippet="true">
+                    radio.onReceivedNumber(function (receivedNumber) {
+                    for (let i = 0; i < 2; i++) {
+                    basic.showLeds(`
+                    # # # # #
+                    # # # # #
+                    # . # . #
+                    # . . . #
+                    # # # # #
+                    `)
+                    led.setBrightness(50)
+                    basic.showLeds(`
+                    # # # # #
+                    # # # # #
+                    # . # . #
+                    # . . . #
+                    # # # # #
+                    `)
+                    led.setBrightness(255)
+                    }
+                    })
+                </code>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Branching" class="step" data-rel-x="1600" data-rel-y="500" data-scale="1">
+                <h1>Funk: Entschlüsseln</h1>
+
+                <img class="responsive lazyload" src="img/yield-1504678_1920.jpg" alt="Verzweigungen"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/photos/weichen-verzweigung-eisenbahn-1504678/">hpgruesen /
+                        pixabay.com</a>,
+                    Creative Commons CC0
+                </div>
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Code_Symbol" class="step" data-rel-x="0" data-rel-y="50" data-scale="0.01">
+
+                <p>Über das
+                    <i class="em em-heavy_plus_sign coloredCircle"></i> und <i
+                            class="em em-heavy_minus_sign coloredCircle"></i>
+                    Zeichen kann man die Bedingung anpassen:
+                </p>
+                <code id="code-if-extended" class="js-blocks" data-snippet="true">
+                    let emoji = 1
+                    if (emoji == 1) {
+                    basic.showIcon(IconNames.Heart)
+                    } else if (emoji == 2) {
+                    basic.showLeds(`
+                    # # . # #
+                    # # . # #
+                    . . # . .
+                    # . . . #
+                    . # # # .
+                    `)
+                    } else if (emoji == 3) {
+                    basic.showIcon(IconNames.Giraffe)
+                    }
+                </code>
+
+                <p>Hilfe:
+                    <a href="http://eis.ph-noe.ac.at/microbit02/">http://eis.ph-noe.ac.at/microbit02/</a>
+                </p>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Notes" class="step" data-rel-x="0" data-rel-y="1550" data-scale="1">
+
+                <img class="responsive lazyload" src="img/note-2527458_1920.jpg" alt="Notizen"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/de/photos/notiz-notizzettel-zettel-memo-2527458/">Bru-nO /
+                        pixabay.com</a>, Creative
+                    Commons CC0
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Variables" class="step" data-rel-x="70" data-rel-y="150" data-scale=".9">
+
+                <code id="code-variable-empfangeneNachricht" class="js-blocks" data-snippet="true">
+                    radio.onReceivedNumber(function (receivedNumber) {
+                    let receivedMessage = receivedNumber
+                    })
+                </code>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Send" class="step" data-rel-x="-100" data-rel-y="2000" data-scale="1">
+
+                <h1>Nachricht senden</h1>
+
+                <img class="responsive lazyload" src="img/wlan-2088667_1920.jpg" alt="WLAN Signal"/>
+                <div class="img-source">
+                    <a href="https://pixabay.com/illustrations/mobile-phone-arrow-send-received-on-2223993/">geralt /
+                        pixabay.com</a>, Creative
+                    Commons CC0
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji_Push_B" class="step" data-rel-x="0" data-rel-y="100" data-scale="0.01">
+
+                <h1>Eingabe: Drücke Taste B</h1>
+
+                <code id="code-push-b" class="js-blocks" data-snippet="true">
+                    input.onButtonPressed(Button.B, function () {
+                    basic.showLeds(`
+                    # # # # #
+                    # # # # #
+                    # . # . #
+                    # . . . #
+                    # # # # #
+                    `)
+                    basic.showIcon(IconNames.Yes)
+                    })
+                </code>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji-Installation" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+                <h1>Upload per USB</h1>
+
+                <img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
+                <p>Hilfe:
+                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
+                        program</a>
+                </p>
+                <div class="img-source">
+                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
+                        (MIT)</a>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Projekt_Emoji-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1"
+                     data-next-impress="projekte.html">
+
+                <img class="lazyload" data-src="img/projects/emoji_transmitter.png"/>
+                <h1 class="img-title">Ausprobieren
+                    <i class="em em-muscle"></i>
+                </h1>
+                <div class="img-source">
+                    <a href="https://makecode.microbit.org/projects/mood-radio">Microsoft, The MIT License (MIT)</a>
+                </div>
+
+                <aside class="notes">
+                </aside>
+
+            </section>
+
+            <section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10"
+                     style="pointer-events: none;">
+                <p></p>
+            </section>
+        </div>
+
+
+        <div id="impress-toolbar"></div>
+
+        <div class="impress-progressbar">
+            <div></div>
+        </div>
+        <!--<div class="impress-progress"></div>-->
+
+        <div id="impress-help"></div>
+
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/lazyload.min.js"></script>
+        <script type="text/javascript" src="./js/impress.js"></script>
+        <script type="text/javascript" src="./js/impress-loadnext.js"></script>
+        <script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                impress().init();
+                $("code.js-blocks").blocks();
+                $("img.lazyload").lazyload();
+            });
+
+        </script>
+
+    </body>
 
 </html>
