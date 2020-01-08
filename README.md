@@ -52,7 +52,7 @@ Für den Workshop haben wir das **[micro:bit Cheat Sheet (Word)](./docs/microbit
 
 # Entwicklung
 
-Um die Präsentation selbst anzupassen und weiter zu entwicklen, sind folgende Voraussetzungen und Befehle notwendig:
+Um die Präsentation selbst anzupassen und weiter zu entwickeln, sind folgende Voraussetzungen und Befehle notwendig:
 
 ## Voraussetzungen
 
@@ -66,7 +66,7 @@ Danach im Hauptverzeichnis des Projekte folgenden Befehl in der Kommandozeile au
 - `npm install -g grunt-cli`
 - `npm install`
 
-Dadurch werden die notwendigen JavaScript-Tools heruntergeladen, die in der Datei `packages.json` festgelegt sind.
+Dadurch werden die notwendigen JavaScript-Bibliotheken heruntergeladen, die in der Datei `packages.json` festgelegt sind.
 
 ## Entwickeln mit Vorschau
 
