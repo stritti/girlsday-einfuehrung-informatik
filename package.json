@@ -14,11 +14,11 @@
   "homepage": "https://stritti.github.io/girlsday-einfuehrung-informatik",
   "dependencies": {
     "impress.js": "^1.0.0",
-    "jquery": "^3.3.1",
-    "lazyload": "^2.0.0-beta.2"
+    "jquery": "^3.4.1",
+    "lazyload": "^2.0.0-rc.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^2.0.0",
