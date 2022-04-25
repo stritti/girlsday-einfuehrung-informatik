@@ -35,10 +35,10 @@ jobs:
           npm ci
       - name: Build
         run: |
-          grunt test
+          npm run test
       - name: Build
         run: |
-          grunt build
+          npm run build
 
       - name: Deploy Github Pages
         uses: peaceiris/actions-gh-pages@v3
