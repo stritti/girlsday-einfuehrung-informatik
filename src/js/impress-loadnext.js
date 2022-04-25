@@ -3,13 +3,13 @@
  * e.g.: <section id="Last" class="step"  data-next-impress="develop.html">...</section>
  */
 
-/* global document, navigator */
+/* global document */
 ;(function (document) {
   'use strict'
 
   // load next page if attribute is set
   document.addEventListener('impress:stepenter', function (event) {
-    var nextImpress = event.srcElement.dataset.nextImpress
+    const nextImpress = event.srcElement.dataset.nextImpress
     console.log(event)
     if (nextImpress !== undefined) {
       console.log('Load next impress file: ' + nextImpress)
