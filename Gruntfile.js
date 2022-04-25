@@ -5,20 +5,20 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-      folder: ['output', 'tmp']
+      folder: ['dist', 'tmp']
     },
     copy: {
       html: {
-        files: [{ cwd: 'src', src: '*.html', dest: 'output/', expand: true }]
+        files: [{ cwd: 'src', src: '*.html', dest: 'dist/', expand: true }]
       },
       css: {
-        files: [{ cwd: 'src/css', src: '*.css', dest: 'output/css', expand: true }]
+        files: [{ cwd: 'src/css', src: '*.css', dest: 'dist/css', expand: true }]
       },
       js: {
-        files: [{ cwd: 'src/js', src: '*.js', dest: 'output/js', expand: true }]
+        files: [{ cwd: 'src/js', src: '*.js', dest: 'dist/js', expand: true }]
       },
       images: {
-        files: [{ cwd: 'src/img', src: '**', dest: 'output/img/', expand: true }]
+        files: [{ cwd: 'src/img', src: '**', dest: 'dist/img/', expand: true }]
       },
       libs: {
         files: [
@@ -26,17 +26,17 @@ module.exports = function (grunt) {
             expand: true,
             cwd: 'node_modules/jquery/dist',
             src: 'jquery.min.js',
-            dest: 'output/js'
+            dest: 'dist/js'
           },
           {
             expand: true,
             cwd: 'node_modules/lazyload',
             src: 'lazyload.min.js',
-            dest: 'output/js'
+            dest: 'dist/js'
           } /*,          {            expand: true,
             cwd: 'node_modules/impress.js/js',
             src: 'impress.js',
-            dest: 'output/js'
+            dest: 'dist/js'
          },        */
         ]
       }
@@ -47,13 +47,13 @@ module.exports = function (grunt) {
           mangle: false
         },
         files: {
-          './output/js/presentation.min.js': [
-            './output/js/presentation.js',
-            './output/js/presentation.makecode-blocks.js',
-            './output/js/presentation.svg.js'
+          './dist/js/presentation.min.js': [
+            './dist/js/presentation.js',
+            './dist/js/presentation.makecode-blocks.js',
+            './dist/js/presentation.svg.js'
           ]
-          /* './output/js/impress.min.js': [
-            './output/js/impress.js' ] */
+          /* './dist/js/impress.min.js': [
+            './dist/js/impress.js' ] */
         }
       }
     },
@@ -79,11 +79,11 @@ module.exports = function (grunt) {
     browserSync: {
       dev: {
         bsFiles: {
-          src: ['output/css/*.css', 'output/js/*.js', 'output/*.html']
+          src: ['dist/css/*.css', 'dist/js/*.js', 'dist/*.html']
         },
         options: {
           watchTask: true,
-          server: './output'
+          server: './dist'
         }
       }
     }
