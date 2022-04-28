@@ -59,26 +59,28 @@
     window.addEventListener(
       'message',
       function (ev) {
-        var msg = ev.data
+        const msg = ev.data
         if (msg.source !== 'makecode') return
 
         switch (msg.type) {
-          case 'renderready':
+          case 'renderready': {
             // start rendering snippets!
             $.fn.renderSnippets()
             break
-          case 'renderblocks':
+          }
+          case 'renderblocks': {
             // var svg = msg.svg // this is an string containing SVG
-            var id = msg.id // this is the id you sent
+            const id = msg.id // this is the id you sent
             // replace text with svg
-            var img = document.createElement('img')
+            const img = document.createElement('img')
             img.src = msg.uri
             img.width = msg.width
             img.height = msg.height
-            var code = document.getElementById(id)
+            const code = document.getElementById(id)
             code.parentElement.insertBefore(img, code)
             code.parentElement.removeChild(code)
             break
+          }
         }
       },
       false
@@ -89,9 +91,9 @@
   }
 
   $.fn.makeCodeRenderPre = function ($block) {
-    var f = document.getElementById('makecoderenderer')
+    const f = document.getElementById('makecoderenderer')
 
-    var isSnippet = $block.attr('data-snippet') === null ? 'true' : $block.attr('data-snippet')
+    const isSnippet = $block.attr('data-snippet') === null ? 'true' : $block.attr('data-snippet')
 
     f.contentWindow.postMessage(
       {
@@ -107,14 +109,14 @@
   }
 
   $.fn.renderSnippets = function () {
-    var $blocks = $('.js-blocks')
+    const $blocks = $('.js-blocks')
     Array.prototype.forEach.call($blocks, function (block) {
       $.fn.makeCodeRenderPre($(block))
     })
   }
 
   $.fn.makeCodeInjectRenderer = function () {
-    var f = document.createElement('iframe')
+    const f = document.createElement('iframe')
     f.id = 'makecoderenderer'
     f.style.position = 'absolute'
     f.style.left = 0

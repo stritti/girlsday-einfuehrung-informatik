@@ -13,21 +13,21 @@
   },
   "homepage": "https://stritti.github.io/girlsday-einfuehrung-informatik",
   "dependencies": {
-    "impress.js": "^1.0.0",
-    "jquery": "^3.5.0",
+    "impress.js": "^1.1.0",
+    "jquery": "^3.6.0",
     "lazyload": "^2.0.0-rc.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "grunt": "^1.0.4",
+    "browser-sync": "^2.27.9",
+    "grunt": "^1.5.2",
     "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^2.1.0",
-    "grunt-contrib-nodeunit": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^4.0.0",
+    "grunt-contrib-uglify": "^5.2.1",
     "grunt-contrib-watch": "^1.1.0",
-    "standard": "^14.3.1"
+    "standard": "^17.0.0"
   },
   "scripts": {
     "start": "grunt",
