@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/Emely.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Horsch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Tiffany.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28I3txtPrnYcfpFI0cr1aaWa5xv" />
@@ -44,6 +46,9 @@
       <option name="presentableId" value="Default" />
       <updated>1650890490803</updated>
       <workItem from="1650890492343" duration="382000" />
+      <workItem from="1681300403810" duration="3610000" />
+      <workItem from="1681487107890" duration="2015000" />
+      <workItem from="1681722130752" duration="2464000" />
     </task>
     <servers />
   </component>
@@ -60,5 +65,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
