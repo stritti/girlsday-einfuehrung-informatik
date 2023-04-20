@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="">
+    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/img/Dzana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Rebecca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/telePotato.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/develop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/develop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projekte.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +31,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/projects" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img\projects" />
+      <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projekte\1.0_Emely_Langer\0_Info\3_Girls' Day\2022\girlsday-einfuehrung-informatik\src\img" />
       <recent name="C:\Projekte\1.0_Emely_Langer\0_Info\3_Girls' Day\2022\girlsday-einfuehrung-informatik\src\img\projects" />
@@ -49,7 +59,18 @@
       <workItem from="1681300403810" duration="3610000" />
       <workItem from="1681487107890" duration="2015000" />
       <workItem from="1681722130752" duration="2464000" />
+      <workItem from="1681803027112" duration="1335000" />
+      <workItem from="1681914289005" duration="684000" />
+      <workItem from="1681996830248" duration="1851000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1681803254510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681803254510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +87,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
