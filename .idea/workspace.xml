@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/img/Dzana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Rebecca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/projects/telePotato.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/develop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/develop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projekte.html" afterDir="false" />
-    </list>
+    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="adjust content for 2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +53,7 @@
       <workItem from="1681722130752" duration="2464000" />
       <workItem from="1681803027112" duration="1335000" />
       <workItem from="1681914289005" duration="684000" />
-      <workItem from="1681996830248" duration="1851000" />
+      <workItem from="1681996830248" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1681803254510</created>
@@ -70,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681803254510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adjust content for 2023">
+      <created>1681998861740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681998861740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="adjust content for 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust content for 2023" />
   </component>
 </project>
