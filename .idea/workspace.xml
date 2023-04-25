@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/Emely.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Horsch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Tiffany.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="adjust content for 2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28I3txtPrnYcfpFI0cr1aaWa5xv" />
@@ -24,12 +23,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/projects" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img\projects" />
+      <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projekte\1.0_Emely_Langer\0_Info\3_Girls' Day\2022\girlsday-einfuehrung-informatik\src\img" />
       <recent name="C:\Projekte\1.0_Emely_Langer\0_Info\3_Girls' Day\2022\girlsday-einfuehrung-informatik\src\img\projects" />
@@ -44,7 +48,28 @@
       <option name="presentableId" value="Default" />
       <updated>1650890490803</updated>
       <workItem from="1650890492343" duration="382000" />
+      <workItem from="1681300403810" duration="3610000" />
+      <workItem from="1681487107890" duration="2015000" />
+      <workItem from="1681722130752" duration="2464000" />
+      <workItem from="1681803027112" duration="1335000" />
+      <workItem from="1681914289005" duration="684000" />
+      <workItem from="1681996830248" duration="2624000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1681803254510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681803254510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adjust content for 2023">
+      <created>1681998861740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681998861740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,5 +85,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="adjust content for 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust content for 2023" />
   </component>
 </project>
