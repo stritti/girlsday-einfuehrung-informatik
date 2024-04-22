@@ -1,6 +1,6 @@
 {
   "name": "girlsday-einfuehrung-informatik",
-  "version": "0.1.0",
+  "version": "1.1.2024",
   "description": "Girls' Day - Eine Einführung in die Informatik",
   "license": "MIT",
   "author": {
@@ -14,20 +14,20 @@
   "homepage": "https://stritti.github.io/girlsday-einfuehrung-informatik",
   "dependencies": {
     "impress.js": "^1.1.0",
-    "jquery": "^3.6.4",
+    "jquery": "^3.7.1",
     "lazyload": "^2.0.0-rc.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.9",
+    "browser-sync": "^3.0.2",
     "grunt": "^1.6.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-nodeunit": "^4.0.0",
-    "grunt-contrib-uglify": "^5.2.1",
+    "grunt-contrib-nodeunit": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
-    "standard": "^17.0.0"
+    "standard": "^17.1.0"
   },
   "scripts": {
     "start": "grunt",
