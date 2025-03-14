@@ -24,7 +24,7 @@ Dabei kann sicher nicht in die komplette Tiefe der Programmierung abgetaucht wer
 Spaß an der Informatik fördern und mit möglichst anschaulichen Mitteln zeigen, dass das gar nicht so
 kompliziert ist, wie viele sich das vorstellen.
 
-Diese Präsentation war erstmals Grundlage für den [Girls' Day 2019](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
+Diese Präsentation war erstmals Grundlage für den [Girls' Day 2025](https://www.girls-day.de/) bei der [Sybit GmbH](https://www.sybit.de).
 
 ## micro:bit Cheat Sheet
 
