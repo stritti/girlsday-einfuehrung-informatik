@@ -2,929 +2,839 @@
 
 <html lang="de">
 
-    <head>
-        <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-        <title>Girls' Day - Teil 2: Eine Einführung in die Informatik</title>
-        <meta name="description" content="Girls' Day - Eine Einführung in die Informatik">
-        <meta name="author" content="Stephan Strittmatter">
-        <meta name="viewport" content="width=1400">
-        <meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Girls' Day - Teil 2: Eine Einführung in die Informatik</title>
+	<meta name="description" content="Girls' Day - Eine Einführung in die Informatik">
+	<meta name="author" content="Stephan Strittmatter">
+	<meta name="viewport" content="width=1400">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
-        <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css"/>
-        <link rel="stylesheet" href="css/presentation.css"/>
+	<link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css"/>
+	<link rel="stylesheet" href="css/presentation.css"/>
 
-    </head>
+</head>
 
-    <body class="impress-not-supported">
-        <div class="fallback-message">
-            <p>Dein Web-Browser
-                <b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine
-                vereinfachte
-                Version der
-                Präsentation angezeigt.</p>
-            <p>Für eine bestmögliche Anzeige verwende bitte eine aktuelle Version vom
-                <b>Chrome</b>,
-                <b>Safari</b> oder
-                <b>Firefox</b>.</p>
-        </div>
+<body class="impress-not-supported">
+<div class="fallback-message">
+	<p>Dein Web-Browser
+		<b>unterstützt nicht die Funktionen</b>, welche von impress.js benötigt werden, Es wird dir eine
+		vereinfachte
+		Version der
+		Präsentation angezeigt.</p>
+	<p>Für eine bestmögliche Anzeige verwende bitte eine aktuelle Version vom
+		<b>Chrome</b>,
+		<b>Safari</b> oder
+		<b>Firefox</b>.</p>
+</div>
 
-        <img src="img/Logo_sybit_2014_Bildmarke_weiß.png" alt="Sybit Bildmarke" class="watermark"/>
+<img src="img/SYBIT_RZ_RGB_Logo_HighRes_Weiss_ohne_Schutzraum 2.svg" alt="Sybit Bildmarke" class="watermark"></img>
 
-        <div id="impress" data-transition-duration="1000">
-            <section id="Titel" class="step" data-x="-1500" data-y="-930" data-scale="1">
-                                <p>
-                    <img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
-                    <a href="index.html#/BBC-Microbit-back" style="position: absolute; bottom:5rem;left: 2rem;">
-                        <i class="em em-arrow_backward"></i>
-                    </a>
-                </p>
-                <p class="img-title">Live Coding</p>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
-                        pixabay.com, Creative
-                        Commons CC0 </a>
-                </div>
+<div id="impress" data-transition-duration="1000">
+	<section id="Titel" class="step" data-x="-1500" data-y="-930" data-scale="1">
+		<p>
+			<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
+			<a href="index.html#/BBC-Microbit-back" style="position: absolute; bottom:5rem;left: 2rem;">
+				<i class="em em-arrow_backward"></i>
+			</a>
+		</p>
+		<p class="img-title">Live Coding</p>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
+				pixabay.com, Creative
+				Commons CC0 </a>
+		</div>
 
-                <aside class="notes">
-                </aside>
+		<aside class="notes">
+		</aside>
 
-            </section>
+	</section>
 
-            <section id="Entwicklungsumgebung" class="step" data-x="-1350" data-y="-880" data-scale="0.2">
-                <h1>Die Entwicklungsumgebung</h1>
-                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                            src="https://makecode.microbit.org/#pub:_JeA1kw7kvgcW"
-                            frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
-                </div>
+	<section id="Entwicklungsumgebung" class="step" data-x="-1350" data-y="-880" data-scale="0.2">
+		<h1>Die Entwicklungsumgebung</h1>
+		<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+					src="https://makecode.microbit.org/#pub:_JeA1kw7kvgcW"
+					frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+		</div>
 
-                <aside class="notes">
-                    <img src="https://pxt.azureedge.net/blob/8690130ed1c03177a5962825689f823e206278e9/static/courses/csintro/making/ide-tour.png"
-                    />
-                </aside>
-            </section>
+		<aside class="notes">
+			<img src="https://pxt.azureedge.net/blob/8690130ed1c03177a5962825689f823e206278e9/static/courses/csintro/making/ide-tour.png"
+			/>
+		</aside>
+	</section>
 
-            <section id="Makecode" class="step" data-rel-x="1500" data-y="0" data-scale="1">
+	<section id="Makecode" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-                <div class="center middle" style="font-size: 3.5rem">
+		<div class="center middle" style="font-size: 3.5rem">
 
-                    <i class="em em-point_right"></i>
-                    <a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>
-                    <i class="em em-point_left"></i>
-                    <br/>
-                    <br/>
+			<i class="em em-point_right"></i>
+			<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>
+			<i class="em em-point_left"></i>
+			<br/>
+			<br/>
 
-                    <i class="em em-three_button_mouse"></i>&nbsp;
-                    <i class="em em-two_women_holding_hands"></i>&nbsp;
-                    <i class="em em-keyboard"></i>
+			<i class="em em-three_button_mouse"></i>&nbsp;
+			<i class="em em-two_women_holding_hands"></i>&nbsp;
+			<i class="em em-keyboard"></i>
 
 
-                </div>
+		</div>
 
-                <aside class="notes">
-                    Elemente des Editors erklären &hellip;
-                </aside>
-            </section>
+		<aside class="notes">
+			Elemente des Editors erklären &hellip;
+		</aside>
+	</section>
 
-            <section id="Hello_World" class="step" data-rel-x="1500" data-y="0" data-scale="1">
+	<section id="Hello_World" class="step" data-rel-x="1500" data-y="0" data-scale="1">
 
-                <h1>Hello World!</h1>
-                <p>
-                    <em>"Hello World!"</em> ist ein typisches Startbeispiel in der Informatik:
-                    <img src="img/hello-world-1333103_1920.jpg" class="right vignette"/>
-                </p>
-                <pre><code id="hello-world" class="js-blocks" data-snippet="false">
+		<h1>Hello World!</h1>
+		<p>
+			<em>"Hello World!"</em> ist ein typisches Startbeispiel in der Informatik:
+			<img src="img/hello-world-1333103_1920.jpg" class="right vignette"/>
+		</p>
+		<pre><code id="hello-world" class="js-blocks" data-snippet="false">
                         basic.showString("Hello World!")
                         </code></pre>
 
 
-                <aside class="notes">
-                    "Hello World" ist das Grundbeispiel, in der Programmierung das den ersten Einstieg bietet.
-                </aside>
-            </section>
+		<aside class="notes">
+			"Hello World" ist das Grundbeispiel, in der Programmierung das den ersten Einstieg bietet.
+		</aside>
+	</section>
 
-            <section id="Hello_World_2" class="step" data-rel-x="-180" data-rel-y="0" data-scale="0.6">
-
-                <p class="middle">
-                    <i class="em em-two_women_holding_hands"></i>
-                    <q>Lasst nun euern micro:bit "Hallo" sagen!</q>
-                </p>
+	<section id="Hello_World_2" class="step" data-rel-x="-180" data-rel-y="0" data-scale="0.6">
+
+		<p class="middle">
+			<i class="em em-two_women_holding_hands"></i>
+			<q>Lasst nun euern micro:bit "Hallo" sagen!</q>
+		</p>
 
 
-                <aside class="notes">
+		<aside class="notes">
 
-                </aside>
-            </section>
+		</aside>
+	</section>
 
-            <section id="Hello_World_3" class="step" data-rel-x="50" data-rel-y="50" data-scale="0.3">
+	<section id="Hello_World_3" class="step" data-rel-x="50" data-rel-y="50" data-scale="0.3">
 
-                <p class="middle">
-                    <i class="em em-two_women_holding_hands"></i>
-                    <q>&hellip; und ein paar
-                        <i class="em em-heart"></i>
-                        <i class="em em-smiley"></i>
-                        <i class="em em-hearts"></i> ausgeben</q>
-                </p>
+		<p class="middle">
+			<i class="em em-two_women_holding_hands"></i>
+			<q>&hellip; und ein paar
+				<i class="em em-heart"></i>
+				<i class="em em-smiley"></i>
+				<i class="em em-hearts"></i> ausgeben</q>
+		</p>
 
-                <aside class="notes">
+		<aside class="notes">
 
-                </aside>
-            </section>
+		</aside>
+	</section>
 
-
-            <section id="Hello_World_final" class="step" data-rel-x="1500" data-y="0" data-scale="1">
-                <img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
 
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
-                        pixabay.com</a>, Creative
-                    Commons CC0
-                </div>
-                <p class="img-title">Unser Hello World!</p>
-                <aside class="notes">
+	<section id="Hello_World_final" class="step" data-rel-x="1500" data-y="0" data-scale="1">
+		<img class="lazyload responsive" data-src="img/adult-15700_1920.jpg" alt="Mädchen mit Laptop"/>
 
-                </aside>
-            </section>
-
-            <section id="Hello_World_final_code" class="step" data-rel-x="150" data-y="50" data-scale="0.2">
-
-                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                            src="https://makecode.microbit.org/#pub:_J15JbCEJR2ki"
-                            frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
-                </div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/erwachsene-hintergrund-gesch%C3%A4ft-15700/">PublicDomainPictures /
+				pixabay.com</a>, Creative
+			Commons CC0
+		</div>
+		<p class="img-title">Unser Hello World!</p>
+		<aside class="notes">
 
-                <aside class="notes">
-                </aside>
+		</aside>
+	</section>
 
-            </section>
+	<section id="Hello_World_final_code" class="step" data-rel-x="150" data-y="50" data-scale="0.2">
 
-            <section id="Hello_World_Installation" class="step" data-rel-x="-200" data-rel-y="1000" data-scale="1">
-                <h1>Upload per USB</h1>
-
-                <img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
-                <p>Hilfe:
-                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
-                        program</a>
-                </p>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
-                        (MIT)</a>
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-            <section id="Rundgang-Sybit" class="step" data-rel-x="2000" data-y="0" data-scale="1">
-
-                <img class="responsive lazyload"
-                     data-src="http://78.media.tumblr.com/1d2abad9366d04a0f9177bc84af90aa9/tumblr_inline_oimt7cvxrc1ttlxot_1280.jpg"/>
-                <div class="img-title"><h1>Rundgang durch Sybit</h1>
-                </div>
-                <div class="img-source">
-                    <a href="http://digitalnativealliance.tumblr.com/post/154844332644/abschlussarbeit-bei-sybit">
-                        Digital Native Alliance /tumblr.com</a>
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-            <section id="Mittagspause" class="step" data-rel-x="0" data-rel-y="1200" data-scale="1">
-                <img class="responsive lazyload" data-src="img/pizza-1150031_1920.jpg"/>
-                <h1 class="img-title">
-                    Mittagspause
-                    <i class="em em-pizza"></i>
-                    <i class="em em-knife_fork_plate"></i>
-                </h1>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/pizza-vegetarische-pizza-k%C3%A4se-1150031/">Free-Photos /
-                        pixabay.com</a>, Creative Commons CC0
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-
-            <section id="Wiederholung" class="step" data-rel-x="50" data-rel-y="880" data-scale="0.5">
-
-                <img class="lazyload responsive" src="img/lightbulb-2692247_1920.jpg" alt="Glühbirne and der Wand"/>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/gl%C3%BChbirne-konzept-kork-bulletin-2692247/">
-                        freeGraphicToday /pixabay.com</a>, Creative Commons CC0
-                </div>
-                <div class="img-title"><h1>Was haben wir bis jetzt gemacht?</h1></div>
-                <aside class="notes">
-                    In die Runde fragen.
-                </aside>
-            </section>
-
-            <!--section id="Projekt_Karel" class="step" data-rel-x="-1500" data-rel-y="100" data-rotate-z="-45"
-                     data-scale="0.7">
-
-                <img class="responsive lazyload" src="img/projects/karel_the_led.png" alt="Karel die LED" height="90%"/>
-                <div class="img-title"><h1>... und nun lernen wir Karel die LED kennen <i class="em em-smiley"></i></h1>
-                </div>
-                <div class="img-source">
-                    Screenshot
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-            <section id="Projekt_Karel_Buttons" class="step" data-rel-x="30" data-rel-y="-20" data-scale="0.01">
-                <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-                    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                            src="https://makecode.microbit.org/#pub:_WjM8D6U365y6" frameborder="0"
-                            sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section!-->
-
-
-            <!--section id="Emoji_Transmitter" class="step" data-x="1400" data-y="1200" data-scale="1">
-                <img class="responsive lazyload" style="background-color: bisque;" src="img/smiley-3692494_1920.jpg"
-                     alt="Emoji_Transmitter_Hand"/>
-                <div class="img-title"><h1>Projekt: Emoji Transmitter</h1></div>
-                <div class="img-source">
-                    <a href="https://pixabay.com/photos/smiley-map-hand-emotion-symbol-3692494/">athree23 /
-                        pixabay.com</a>,
-                    Creative Commons CC0
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-            <section id="Projekt_Emoji-Userstory" class="step" data-rel-x="140" data-rel-y="-150" data-rotate-z="0"
-                     data-scale="0.1">
-                <h1>Userstory</h1>
-                <p>
-                    <q>Ich möchte eine geheime Nachricht senden und geheime Nachrichten empfangen.</q>
-                </p>
-                <hr/>
-                <div>
-                    Verifiziere, dass &hellip;
-                    <ul>
-                        <li>… du ein Emoji senden kannst, wenn du Taste B drückst</li>
-                        <li>… du eine Nachricht empfangen und als Emoji anzeigen kannst</li>
-                    </ul>
-                </div>
-
-                <aside class="notes">
-                </aside>
-
-            </section>
-
-            <section id="Projekt_Emoji_Receive" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
-                <h1>Funk: Empfangen</h1>
-                <img class="responsive lazyload" src="img/mobile-phone-2223993_1920.jpg" alt="Mobile phone"/>
-                <div class="img-source">
-                    <a href="https://pixabay.com/illustrations/wlan-web-friends-community-sms-2088667/">geralt /
-                        pixabay.com</a>,
-                    Creative Commons
-                    CC0
-                </div>
+		<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;"
+					src="https://makecode.microbit.org/#pub:_J15JbCEJR2ki"
+					frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+		</div>
 
-                <aside class="notes">
-                </aside>
+		<aside class="notes">
+		</aside>
 
-            </section>
+	</section>
 
-            <section id="Projekt_Emoji_Receive_Code" class="step" data-rel-x="-90" data-rel-y="-80" data-scale="0.4">
-                <div style="float: right;">
-                <code id="code-receivedNumber" class="js-blocks" data-snippet="true">
-                    radio.onReceivedNumber(function (receivedNumber) {
-                    for (let i = 0; i < 2; i++) {
-                    basic.showLeds(`
-                    # # # # #
-                    # # # # #
-                    # . # . #
-                    # . . . #
-                    # # # # #
-                    `)
-                    led.setBrightness(50)
-                    basic.showLeds(`
-                    # # # # #
-                    # # # # #
-                    # . # . #
-                    # . . . #
-                    # # # # #
-                    `)
-                    led.setBrightness(255)
-                    }
-                    })
-                </code>
-                </div>
+	<section id="Hello_World_Installation" class="step" data-rel-x="-200" data-rel-y="1000" data-scale="1">
+		<h1>Upload per USB</h1>
 
-                <aside class="notes">
-                </aside>
+		<img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
+		<p>Hilfe:
+			<a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
+				program</a>
+		</p>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
+				(MIT)</a>
+		</div>
 
-            </section-->
+		<aside class="notes">
+		</aside>
 
-            <section id="Emotion_Badge" class="step" data-x="1400" data-y="1200" data-scale="1">
+	</section>
 
-            <img class="responsive lazyload" style="background-color: bisque;" src="img/smiley-3692494_1920.jpg"
-            alt="Emoji_Transmitter_Hand"/>
+	<section id="Rundgang-Sybit" class="step" data-rel-x="2000" data-y="0" data-scale="1">
 
-            <div class="img-title"><h1>Projekt: Emotion Badge</h1></div>
+		<img class="responsive lazyload"
+			 data-src="http://78.media.tumblr.com/1d2abad9366d04a0f9177bc84af90aa9/tumblr_inline_oimt7cvxrc1ttlxot_1280.jpg"/>
+		<div class="img-title"><h1>Rundgang durch Sybit</h1>
+		</div>
+		<div class="img-source">
+			<a href="http://digitalnativealliance.tumblr.com/post/154844332644/abschlussarbeit-bei-sybit">
+				Digital Native Alliance /tumblr.com</a>
+		</div>
 
-            <div class="img-source">
-            <a href="https://pixabay.com/photos/smiley-map-hand-emotion-symbol-3692494/">athree23 /
+		<aside class="notes">
+		</aside>
 
-            pixabay.com</a>,
+	</section>
 
-            Creative Commons CC0
+	<section id="Mittagspause" class="step" data-rel-x="0" data-rel-y="1200" data-scale="1">
+		<img class="responsive lazyload" data-src="img/pizza-1150031_1920.jpg"/>
+		<h1 class="img-title">
+			Mittagspause
+			<i class="em em-pizza"></i>
+			<i class="em em-knife_fork_plate"></i>
+		</h1>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/pizza-vegetarische-pizza-k%C3%A4se-1150031/">Free-Photos /
+				pixabay.com</a>, Creative Commons CC0
+		</div>
 
-            </div>
+		<aside class="notes">
+		</aside>
 
-            <aside class="notes">
+	</section>
 
-            </aside>
-            </section>
-            <section id="Projekt_Emotion_Badge_Userstory" class="step" data-rel-x="140" data-rel-y="-150" data-rotate-z="0"
-            data-scale="0.1">
 
-            <h1>Userstory</h1>
+	<section id="heartrate-_" class="step" data-rel-x="-2000" data-rel-y="2000" data-scale="1">
 
-            <p>
-            <q>Ich möchte mit einem Emoji Gefühle darstellen und den Anfangsbuchstaben meines Namens anzeigen.</q>
+		<img class="responsive lazyload" src="img/heart-rate.png" alt="Heartrate"/>
 
-            </p>
+		<div class="img-title"><h1>Projekt: Herzfrequenz messen</h1></div>
 
-            <hr/>
+		<aside class="notes">
 
-            <div>
+		</aside>
+	</section>
 
-            Verifiziere, dass &hellip;
-            <ul>
-            <li>… du einen (z.B. glücklichen) Emoji anzeigen kannst, wenn du Taste A drückst</li>
-            <li>… du einen (z.B. traurigen) Emoji anzeigen kannst, wenn du Taste B drückst</li>
-            <li>… du den ersten Buchstaben deines Namens anzeigen kannst, wenn du Taste A und B gleichzeitig drückst</li>
-            </ul>
 
-            </div>
+	<section id="heartrate_" class="step" data-rel-x="-2000" data-rel-y="2000" data-scale="1">
 
-            <aside class="notes">
+		<img class="responsive lazyload" src="img/heartrate-solution.png" alt="Heartrate"/>
+		<div class="img-title"></div>
 
-            </aside>
-            </section>
-            <section id="Projekt_Emotion_Badge_Input" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
+		<aside class="notes">
+		</aside>
 
-            <h1>Eingaben verarbeiten und Emoji ausgeben</h1>
+	</section>
 
-            <img class="responsive lazyload" src="img/emoji-653309_1280.jpg" alt="Mobile phone"/>
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/photos/emoji-gesichter-zunge-653309/">geralt /
 
-            pixabay.com</a>,
 
-            Creative Commons
 
-            CC0
 
-            </div>
+	<section id="Emotion_Badge" class="step" data-x="1400" data-y="1200" data-scale="1">
 
-            <aside class="notes">
+		<img class="responsive lazyload" style="background-color: bisque;" src="img/smiley-3692494_1920.jpg"
+			 alt="Emoji_Transmitter_Hand"/>
 
-            </aside>
-            </section>
-            <section id="Projekt_Emotion_Badge_Push_Button" class="step" data-rel-x="-90" data-rel-y="-80" data-scale="0.4" >
+		<div class="img-title"><h1>Projekt: Emotion Badge</h1></div>
 
-            <h1>Eingabe: Drücke Taste ...</h1>
+		<div class="img-source">
+			<a href="https://pixabay.com/photos/smiley-map-hand-emotion-symbol-3692494/">athree23 /
 
-            <code id="code-push-button" class="js-blocks" data-snippet="true">
+				pixabay.com</a>,
 
-            input.onButtonPressed(Button.A, function () {
+			Creative Commons CC0
 
-            basic.showIcon(IconNames.Happy)
+		</div>
 
-            )}
+		<aside class="notes">
 
-            input.onButtonPressed(Button.B, function () {
+		</aside>
+	</section>
+	<section id="Projekt_Emotion_Badge_Userstory" class="step" data-rel-x="140" data-rel-y="-150" data-rotate-z="0"
+			 data-scale="0.1">
 
-            basic.showIcon(IconNames.Sad)
+		<h1>Userstory</h1>
 
-            )}
+		<p>
+			<q>Ich möchte mit einem Emoji Gefühle darstellen und den Anfangsbuchstaben meines Namens anzeigen.</q>
 
-            input.onButtonPressed(Button.AB, function () {
+		</p>
 
-            basic.showLeds(`
+		<hr/>
 
-            . # # # .
+		<div>
 
-            . # . . .
+			Verifiziere, dass &hellip;
+			<ul>
+				<li>… du einen (z.B. glücklichen) Emoji anzeigen kannst, wenn du Taste A drückst</li>
+				<li>… du einen (z.B. traurigen) Emoji anzeigen kannst, wenn du Taste B drückst</li>
+				<li>… du den ersten Buchstaben deines Namens anzeigen kannst, wenn du Taste A und B gleichzeitig drückst</li>
+			</ul>
 
-            . # # # .
+		</div>
 
-            . . . # .
+		<aside class="notes">
 
-            . # # # .
+		</aside>
+	</section>
+	<section id="Projekt_Emotion_Badge_Input" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
 
-            `)
+		<h1>Eingaben verarbeiten und Emoji ausgeben</h1>
 
-            )}
+		<img class="responsive lazyload" src="img/emoji-653309_1280.jpg" alt="Mobile phone"/>
 
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/emoji-gesichter-zunge-653309/">geralt /
 
-            </code>
+				pixabay.com</a>,
 
-            <aside class="notes">
+			Creative Commons
 
-            </aside>
-            </section>
-            <section id="Projekt_Emoji_Brightness" class="step" data-rel-x="500" data-rel-y="1000" data-scale="1">
+			CC0
 
-            <img class="responsive lazyload" src="img/lamp-2663053_1280.jpg" alt="Helligkeit"/> <!-- TO DO: new image -->
+		</div>
 
-            <div class="img-title"><h1>Helligkeit der LED's anpassen</h1></div>
+		<aside class="notes">
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/photos/lampe-licht-hand-idee-birne-2663053/">hpgruesen /
+		</aside>
+	</section>
+	<section id="Projekt_Emotion_Badge_Push_Button" class="step" data-rel-x="-90" data-rel-y="-80" data-scale="0.4" >
 
-            pixabay.com</a>,
+		<h1>Eingabe: Drücke Taste ...</h1>
 
-            Creative Commons CC0
+		<code id="code-push-button" class="js-blocks" data-snippet="true">
 
-            </div>
+			input.onButtonPressed(Button.A, function () {
 
-            <aside class="notes">
+			basic.showIcon(IconNames.Happy)
 
-            </aside>
-            </section>
-            <section id="Projekt_Emoji_Brightness_Code" class="step" data-rel-x="0" data-rel-y="50" data-scale="0.01">
+			)}
 
-            <p>Helligkeit auf einen beliebigen Wert setzen:
+			input.onButtonPressed(Button.B, function () {
 
-            </p>
+			basic.showIcon(IconNames.Sad)
 
-            <code id="code-if-extended" class="js-blocks" data-snippet="true">
+			)}
 
-            basic.showLeds(`
+			input.onButtonPressed(Button.AB, function () {
 
-            . # # # .
+			basic.showLeds(`
 
-            . # . . .
+			. # # # .
 
-            . # # # .
+			. # . . .
 
-            . . . # .
+			. # # # .
 
-            . # # # .
+			. . . # .
 
-            `)
+			. # # # .
 
-            led.setBrightness(50)
+			`)
 
-            </code>
-            <!--<p>Hilfe:
-            <a href="http://eis.ph-noe.ac.at/microbit02/">http://eis.ph-noe.ac.at/microbit02/</a>
-            </p>-->
+			)}
 
-            <aside class="notes">
 
-            </aside>
-            </section>
-            <section id="Projekt_Emoji-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+		</code>
 
-            <img class="responsive lazyload" data-src="img/smilies-1731855_1920.jpg"/>
+		<aside class="notes">
 
-            <h1 class="img-title">Ausprobieren
-            <i class="em em-muscle"></i>
+		</aside>
+	</section>
+	<section id="Projekt_Emoji_Brightness" class="step" data-rel-x="500" data-rel-y="1000" data-scale="1">
 
-            </h1>
+		<img class="responsive lazyload" src="img/lamp-2663053_1280.jpg" alt="Helligkeit"/> <!-- TO DO: new image -->
 
-            <div class="img-source">
-            <a href="https://makecode.microbit.org/courses/csintro/making/activity">Alexas_Fotos / pixabay.com</a>, Creative
+		<div class="img-title"><h1>Helligkeit der LED's anpassen</h1></div>
 
-            Commons CC0
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/lampe-licht-hand-idee-birne-2663053/">hpgruesen /
 
-            </div>
+				pixabay.com</a>,
 
-            <aside class="notes">
+			Creative Commons CC0
 
-            </aside>
-            </section>
-            <section id="Rock_Paper_Scissors" class="step" data-x="2400" data-y="2400" data-scale="1">
+		</div>
 
-            <img class="responsive lazyload" style="background-color: bisque;" src="img/fight-4121142_1280.jpg"
-            alt="Rock_Paper_Scissors"/>
+		<aside class="notes">
 
-            <div class="img-title"><h1>Projekt: Schere, Stein, Papier</h1></div>
+		</aside>
+	</section>
+	<section id="Projekt_Emoji_Brightness_Code" class="step" data-rel-x="0" data-rel-y="50" data-scale="0.01">
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/photos/k%C3%A4mpfen-felsen-papier-schere-4121142/">athree23 /
+		<p>Helligkeit auf einen beliebigen Wert setzen:
 
-            pixabay.com</a>,
+		</p>
 
-            Creative Commons CC0
+		<code id="code-if-extended" class="js-blocks" data-snippet="true">
 
-            </div>
+			basic.showLeds(`
 
-            <aside class="notes">
+			. # # # .
 
-            </aside>
-            </section>
-            <section id="Projekt_Rock_Paper_Scissors_Shake" class="step" data-rel-x="0" data-rel-y="1550" data-scale="1">
+			. # . . .
 
-            <img class="responsive lazyload" src="img/dog-7274203_1280.jpg" alt="Notizen"/>
+			. # # # .
 
-            <div class="img-title">
-            <h1>Eingabe: Schütteln</h1>
-            <code id="code-rock-paper-scissors-shake" class="js-blocks" data-snippet="true">
+			. . . # .
 
-            input.onGesture(Gesture.Shake, function() {
+			. # # # .
 
-            basic.showIcon(IconNames.Scissors)
+			`)
 
-            }
-            </code>
+			led.setBrightness(50)
 
-            </div>
+		</code>
+		<!--<p>Hilfe:
+		<a href="http://eis.ph-noe.ac.at/microbit02/">http://eis.ph-noe.ac.at/microbit02/</a>
+		</p>-->
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/photos/hund-meer-aussie-7274203/ ">Bru-nO /
+		<aside class="notes">
 
-            pixabay.com</a>, Creative
+		</aside>
+	</section>
+	<section id="Projekt_Emoji-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
 
-            Commons CC0
+		<img class="responsive lazyload" data-src="img/smilies-1731855_1920.jpg"/>
 
-            </div>
+		<h1 class="img-title">Ausprobieren
+			<i class="em em-muscle"></i>
 
-            <aside class="notes">
+		</h1>
 
-            </aside>
-            </section>
-            <section id="Projekt_Rock_Paper_Scissors_Random" class="step" data-rel-x="-100" data-rel-y="2000" data-scale="1">
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/courses/csintro/making/activity">Alexas_Fotos / pixabay.com</a>, Creative
 
-            <img class="responsive lazyload" src="img/dice-1361436_1280.jpg" alt="Dice"/>
+			Commons CC0
 
-            <div class="img-title">
-            <h1>Zufälliger Spielzug</h1>
+		</div>
 
-            </div>
+		<aside class="notes">
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/illustrations/w%C3%BCrfel-schicksal-gl%C3%BCck-himmel-3d-1361436/">geralt /
+		</aside>
+	</section>
+	<section id="Rock_Paper_Scissors" class="step" data-x="2400" data-y="2400" data-scale="1">
 
-            pixabay.com</a>, Creative
+		<img class="responsive lazyload" style="background-color: bisque;" src="img/fight-4121142_1280.jpg"
+			 alt="Rock_Paper_Scissors"/>
 
-            Commons CC0
+		<div class="img-title"><h1>Projekt: Schere, Stein, Papier</h1></div>
 
-            </div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/k%C3%A4mpfen-felsen-papier-schere-4121142/">athree23 /
 
-            <aside class="notes">
+				pixabay.com</a>,
 
-            </aside>
-            </section>
-            <section id="Projekt_Rock_Paper_Scissors_If" class="step" data-rel-x="-100" data-rel-y="-50" data-scale="0.5">
+			Creative Commons CC0
 
-            <h1>Verzweigungen</h1>
+		</div>
 
-            <code id="code-rock-paper-scissors" class="js-blocks" data-snippet="true">
+		<aside class="notes">
 
-            input.onGesture(Gesture.Shake, function() {
+		</aside>
+	</section>
+	<section id="Projekt_Rock_Paper_Scissors_Shake" class="step" data-rel-x="0" data-rel-y="1550" data-scale="1">
 
-            let tool = Math.randomRange(0, 2)
+		<img class="responsive lazyload" src="img/dog-7274203_1280.jpg" alt="Notizen"/>
 
-            if (tool == 0) {
+		<div class="img-title">
+			<h1>Eingabe: Schütteln</h1>
+			<code id="code-rock-paper-scissors-shake" class="js-blocks" data-snippet="true">
 
-            basic.showIcon(IconNames.Square_small)
+				input.onGesture(Gesture.Shake, function() {
 
-            } else if (emoji == 1) {
+				basic.showIcon(IconNames.Scissors)
 
-            basic.showIcon(IconNames.Square)
+				}
+			</code>
 
-            } else if (emoji == 2) {
+		</div>
 
-            basic.showIcon(IconNames.Scissors)
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/hund-meer-aussie-7274203/ ">Bru-nO /
 
-            }
+				pixabay.com</a>, Creative
 
-            }
+			Commons CC0
 
-            </code>
+		</div>
 
-            <aside class="notes">
+		<aside class="notes">
 
-            </aside>
-            </section>
-            <section id="Projekt_Emoji-Installation" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+		</aside>
+	</section>
+	<section id="Projekt_Rock_Paper_Scissors_Random" class="step" data-rel-x="-100" data-rel-y="2000" data-scale="1">
 
-            <h1>Upload per USB</h1>
+		<img class="responsive lazyload" src="img/dice-1361436_1280.jpg" alt="Dice"/>
 
-            <img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
+		<div class="img-title">
+			<h1>Zufälliger Spielzug</h1>
 
-            <p>Hilfe:
-            <a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
+		</div>
 
-            program</a>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/illustrations/w%C3%BCrfel-schicksal-gl%C3%BCck-himmel-3d-1361436/">geralt /
 
-            </p>
+				pixabay.com</a>, Creative
 
-            <div class="img-source">
-            <a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
+			Commons CC0
 
-            (MIT)</a>
+		</div>
 
-            </div>
+		<aside class="notes">
 
-            <aside class="notes">
+		</aside>
+	</section>
+	<section id="Projekt_Rock_Paper_Scissors_If" class="step" data-rel-x="-100" data-rel-y="-50" data-scale="0.5">
 
-            </aside>
-            </section>
-            <section id="Projekt_Rock_Paper_Scissors-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+		<h1>Verzweigungen</h1>
 
-            <img class="responsive lazyload" data-src="img/team-1381084_1280.jpg"/>
+		<code id="code-rock-paper-scissors" class="js-blocks" data-snippet="true">
 
-            <h1 class="img-title">Ausprobieren
-            <i class="em em-muscle"></i>
+			input.onGesture(Gesture.Shake, function() {
 
-            </h1>
+			let tool = Math.randomRange(0, 2)
 
-            <div class="img-source">
-            <a href="https://pixabay.com/de/photos/team-freunde-zusammenarbeit-1381084/">Alexas_Fotos / pixabay.com</a>, Creative
+			if (tool == 0) {
 
-            Commons CC0
+			basic.showIcon(IconNames.Square_small)
 
-            </div>
+			} else if (emoji == 1) {
 
-            <!--a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
-            <i class="em em-arrow_forward"></i>
+			basic.showIcon(IconNames.Square)
 
-            </a-->
+			} else if (emoji == 2) {
 
-            <aside class="notes">
+			basic.showIcon(IconNames.Scissors)
 
-            </aside>
-            </section>
+			}
 
+			}
 
+		</code>
 
-            <section id="Countdown" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
-                <img class="responsive lazyload" style="background-color: bisque;" src="img/rocket-launch-693207_1280.jpg"
-                     alt="Countdown"/>
-                <div class="img-title"><h1>Projekt: Countdown 3, 2, 1 ...</h1></div>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/raketenstart-leerzeichenx-abheben-693207/"> pixabay.com</a>
-                </div>
-            
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Countdown_Userstory" class="step" data-rel-x="140" data-rel-y="-150" data-rotate-z ="0"data-scale="0.3">
-                <h1>Userstory</h1>
-                <p>
-                    <q>Ich möchte, wenn ich die Taste A des Microbits drücke, einen Countdown und einen Ton abspielen.</q>
-                </p>
-                <hr/>
-                <div>
-                    Verifiziere, dass &hellip;
-                    <ul>
-                        <li>… der Countdown abläuft, wenn die Taste A des Microbits gedrückt wird.</li>
-                        <li>… ein Ton abgespielt wird, solange der Countdown läuft.</li>
-                    </ul>
-                </div>
-            
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Countown_loop" class="step" data-rel-x="1400" data-rel-y="1200" data-scale="1">
-                <h1>1.Schritt: Bedingung + Schleife</h1>
-                <img class="responsive lazyload" src="img/roundabout-1558430_1280.jpg" alt="Loop"/>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/kreisel-verkehrsschild-pfeil-runden-1558430/"> pixabay.com</a>
-                </div>
-            
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_setting_u_loop" class="step" data-rel-x="-70" data-rel-y="-50" data-scale="0.1">
-                <div style="float: right;">
-                    <code id="code-receivedNumber" class="js-blocks" data-snippet="true">
-                    </code>
-                </div>
-                <div style="clear:both;"></div>
-                <h1>Schleife und Bedingung</h1>
-                <img class="responsive lazyload" src="img/setting_up_loop.PNG" alt="loop text" style="max-width:150%; height:auto;"/>
-                <img class="responsive lazyload" src="img/loop_conditio_example.PNG" alt="Loop example" style="max-width:60%; height:auto;"/>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown">
-                        makecode.microbit.org</a>
-                </div>
-            
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_Countdown_music" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
-                <h1>2.Schritt: Musik abspielen</h1>
-                <img class="responsive lazyload" src="img/music.jpg" alt="Music"/>
-                <div class="img-source">
-                    <a href="https://capian.co/blog/learn-music-lockdown"></a>
-                </div>
-            
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Countown_loop_example" class="step" data-rel-x="-90" data-rel-y="-80" data-scale="0.05">
-                <img class="responsive lazyload" src="img/play_music.PNG" alt="Loop example"/>
-                <img class="responsive lazyload" src="img/play_music_picture.PNG" alt="Loop example"/>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown">
-                        makecode.microbit.org</a>
-                </div>
-                
-               
-            
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_Countdown_countdown" class="step" data-rel-x="1600" data-rel-y="800" data-scale="1">
-            
-                <img class="responsive lazyload" src="img/woman-498257_1280.jpg" alt="Countdown"/>
-                <div class="img-title"><h1>3.Schritt: Countdown anzeigen</h1></div>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/frau-athlet-laufen-aus%C3%BCbung-sprint-498257/">
-                        pixabay.com</a>,
-                    Creative Commons CC0
-                </div>
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Countdown_countdown_example" class="step" data-rel-x="-290" data-rel-y="-80" data-scale="0.1">
-                <div style="float: right;">
-                    <code id="code-receivedNumber" class="js-blocks" data-snippet="true">
-                    </code>
-                </div>
-                <div style="clear:both;"></div>
-                <h1>Coutdown anzeigen</h1>
-                <img class="responsive lazyload" src="img/show_countdown_text.PNG" alt="Countdown example text" style="max-width:100%; height:auto;"/>
-                <img class="responsive lazyload" src="img/countdown_countdown_example.PNG" alt="Countdown example" style="max-width:60%; height:auto;"/>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown">
-                        makecode.microbit.org</a>
-                </div>
-            </section>            
-            
-            <aside class="notes">
-            </aside>
-            
-            <section id="Projekt_Countdown_rewrite" class="step" data-rel-x="0" data-rel-y="-80" data-scale="0.1">
-                <h1>Coutdown umschreiben</h1>
-                <img class="responsive lazyload" src="img/inverting_number_text.PNG" alt="Inverting number"style="max-width:100%; height:auto;"/>
-                <img class="responsive lazyload" src="img/iverting_number_picture.PNG" alt="Inverting number picture"style="max-width:60%; height:auto;"/>
-                <div class="img-title">
-                </div>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown">
-                        makecode.microbit.org
-                    </a>
-                </div>
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_Countdown_print_go" class="step" data-rel-x="0" data-rel-y="155" data-scale="0.1">
-                <h1>,,LOS" anzeigen</h1>
-                <img class="responsive lazyload" src="img/printing_go.PNG" alt="Print go"style="max-width:100%; height:auto;"/>
-                <img class="responsive lazyload" src="img/printing_go_picture.PNG" alt="Print go picture"style="max-width:60%; height:auto;"/>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown">
-                        makecode.microbit.org</a>
-                </div>
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_Countown_sound" class="step" data-rel-x="1200" data-rel-y="1200" data-scale="1">
-            
-                <img class="responsive lazyload" src="img/girl-singing.jpg" alt="Add sound"/>
-                <div class="img-title"><h1>4.Schritt: Geräusch hinzufügen</h1></div>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/m%C3%A4dchen-halten-karaoke-mikrofon-15754">
-                        pixabay.com</a>,Creative Commons CC0
-                </div>
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Countdown_add_noise" class="step" data-rel-x="-10" data-rel-y="0" data-scale="0.03">
-                <h1>Los Geräusch hinzufügen</h1>
-                <img class="responsive lazyload" src="img/adding_go_noise.PNG" alt="Add go sound"/>
-                <img class="responsive lazyload" src="img/adding_go_noise_picture.PNG" alt="Add go sound picture" style="max-width:50%; height:auto;"/>
-                <div class="img-title">
-                </div>
-                <div class="img-source">
-                    <a href="https://makecode.microbit.org/projects/v2-countdown"></a>
-                </div>
-                <aside class="notes">
-                </aside>
-            </section>
-            
-            <section id="Projekt_Best_Friends" class="step" data-rel-x="-2000" data-rel-y="2000" data-scale="1">
-            
-                <img class="responsive lazyload" src="img/best friends.jpg" alt="Best friends picture"/>
-                <div class="img-title"><h1>Best Friends</h1></div>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/jung-m%C3%A4dchen-beste-freunde-2197492/">
-                        pixabay.com</a>
-                </div>
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            <section id="Projekt_Best_Friends1" class="step" data-rel-x="0" data-rel-y="2000" data-scale="0.3">
-                <img class="responsive lazyload" src="img/best_friends1.jpg" alt="Best Friends 1"/>
-            
-                <aside class="notes">
-                </aside>
-            
-            </section>
-            
-            <section id="Projekt_Best_Friends2" class="step" data-rel-x="0" data-rel-y="2000" data-scale="0.3">
-                <img class="responsive lazyload" src="img/best_friends_2.jpg" alt="Best Friends 2"/>
-            
-                <aside class="notes">
-                </aside>
-            
-            </section>          
+		<aside class="notes">
 
-           
-            <section id="Projekt_Best_Friends_Ausprobieren" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1"
-                     data-next-impress="projekte.html">
-                <img class="responsive lazyload" data-src="img/girl-smiling.jpg"/>
-                <h1 class="img-title">Ausprobieren
-                    <i class="em em-muscle"></i>
-                </h1>
-                <div class="img-source">
-                    <a href="https://pixabay.com/de/photos/junge-frau-frau-l%C3%A4cheln-sch%C3%B6nheit-1722402/"> pixabay.com</a>, Creative
-                    Commons CC0
-                </div>
+		</aside>
+	</section>
+	<section id="Projekt_Emoji-Installation" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
 
-                <a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
-                    <i class="em em-arrow_forward"></i>
-                </a>
+		<h1>Upload per USB</h1>
 
-                <aside class="notes">
-                </aside>
+		<img class="responsive lazyload" data-src="img/microbit-usb.jpg"/>
 
-            </section>
+		<p>Hilfe:
+			<a href="https://makecode.microbit.org/courses/csintro/making/activity">Activity: Installing a
 
-            <section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10"
-                     style="pointer-events: none;">
-                <p></p>
-            </section>
-        </div>
+				program</a>
 
-        <div id="impress-toolbar"></div>
+		</p>
 
-        <div class="impress-progressbar">
-            <div></div>
-        </div>
-        <!--<div class="impress-progress"></div>-->
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/courses/csintro/making/activity">Microsoft, The MIT License
 
-        <div id="impress-help"></div>
+				(MIT)</a>
 
-        <script type="text/javascript" src="./js/jquery.min.js"></script>
-        <script type="text/javascript" src="./js/lazyload.min.js"></script>
-        <script type="text/javascript" src="./js/impress.js"></script>
-        <script type="text/javascript" src="./js/impress-loadnext.js"></script>
-        <script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
+		</div>
 
-        <script>
-            $(document).ready(function () {
-                impress().init();
-                $("code.js-blocks").blocks();
-                $("img.lazyload").lazyload();
-            });
+		<aside class="notes">
 
-        </script>
+		</aside>
+	</section>
+	<section id="Projekt_Rock_Paper_Scissors-Play" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
 
-    </body>
+		<img class="responsive lazyload" data-src="img/team-1381084_1280.jpg"/>
+
+		<h1 class="img-title">Ausprobieren
+			<i class="em em-muscle"></i>
+
+		</h1>
+
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/team-freunde-zusammenarbeit-1381084/">Alexas_Fotos / pixabay.com</a>, Creative
+
+			Commons CC0
+
+		</div>
+
+		<!--a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
+		<i class="em em-arrow_forward"></i>
+
+		</a-->
+
+		<aside class="notes">
+
+		</aside>
+	</section>
+
+
+
+	<section id="Countdown" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1">
+		<img class="responsive lazyload" style="background-color: bisque;" src="img/rocket-launch-693207_1280.jpg"
+			 alt="Countdown"/>
+		<div class="img-title"><h1>Projekt: Countdown 3, 2, 1 ...</h1></div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/raketenstart-leerzeichenx-abheben-693207/"> pixabay.com</a>
+		</div>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Countdown_Userstory" class="step" data-rel-x="140" data-rel-y="-150" data-rotate-z ="0"data-scale="0.3">
+		<h1>Userstory</h1>
+		<p>
+			<q>Ich möchte, wenn ich die Taste A des Microbits drücke, einen Countdown und einen Ton abspielen.</q>
+		</p>
+		<hr/>
+		<div>
+			Verifiziere, dass &hellip;
+			<ul>
+				<li>… der Countdown abläuft, wenn die Taste A des Microbits gedrückt wird.</li>
+				<li>… ein Ton abgespielt wird, solange der Countdown läuft.</li>
+			</ul>
+		</div>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Countown_loop" class="step" data-rel-x="1400" data-rel-y="1200" data-scale="1">
+		<h1>1. Schritt: Bedingung + Schleife</h1>
+		<img class="responsive lazyload" src="img/roundabout-1558430_1280.jpg" alt="Loop"/>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/kreisel-verkehrsschild-pfeil-runden-1558430/"> pixabay.com</a>
+		</div>
+
+		<aside class="notes">
+		</aside>
+	</section>
+
+	<section id="Projekt_setting_u_loop" class="step" data-rel-x="-70" data-rel-y="-50" data-scale="0.1">
+		<div style="float: right;">
+			<code id="code-receivedNumber-1	" class="js-blocks" data-snippet="true">
+			</code>
+		</div>
+		<div style="clear:both;"></div>
+		<h1>Schleife und Bedingung</h1>
+		<img class="responsive lazyload" src="img/setting_up_loop.PNG" alt="loop text" style="max-width:150%; height:auto;"/>
+		<img class="responsive lazyload" src="img/loop_conditio_example.PNG" alt="Loop example" style="max-width:60%; height:auto;"/>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown">
+				makecode.microbit.org</a>
+		</div>
+
+		<aside class="notes">
+		</aside>
+	</section>
+
+	<section id="Projekt_Countdown_music" class="step" data-rel-x="-1400" data-rel-y="1200" data-scale="1">
+		<h1>2.Schritt: Musik abspielen</h1>
+		<img class="responsive lazyload" src="img/music.jpg" alt="Music"/>
+		<div class="img-source">
+			<a href="https://capian.co/blog/learn-music-lockdown"></a>
+		</div>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Countown_loop_example" class="step" data-rel-x="-90" data-rel-y="-80" data-scale="0.05">
+		<img class="responsive lazyload" src="img/play_music.PNG" alt="Loop example"/>
+		<img class="responsive lazyload" src="img/play_music_picture.PNG" alt="Loop example"/>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown">
+				makecode.microbit.org</a>
+		</div>
+
+
+
+		<aside class="notes">
+		</aside>
+	</section>
+
+	<section id="Projekt_Countdown_countdown" class="step" data-rel-x="1600" data-rel-y="800" data-scale="1">
+
+		<img class="responsive lazyload" src="img/woman-498257_1280.jpg" alt="Countdown"/>
+		<div class="img-title"><h1> 3. Schritt: Countdown anzeigen</h1> </div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/frau-athlet-laufen-aus%C3%BCbung-sprint-498257/">
+				pixabay.com</a>,
+			Creative Commons CC0
+		</div>
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Countdown_countdown_example" class="step" data-rel-x="-290" data-rel-y="-80" data-scale="0.1">
+		<div style="float: right;">
+			<code id="code-receivedNumber" class="js-blocks" data-snippet="true">
+			</code>
+		</div>
+		<div style="clear:both;"></div>
+		<h1>Coutdown anzeigen</h1>
+		<img class="responsive lazyload" src="img/show_countdown_text.PNG" alt="Countdown example text" style="max-width:100%; height:auto;"/>
+		<img class="responsive lazyload" src="img/countdown_countdown_example.PNG" alt="Countdown example" style="max-width:60%; height:auto;"/>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown">
+				makecode.microbit.org</a>
+		</div>
+	</section>
+
+	<aside class="notes">
+	</aside>
+
+	<section id="Projekt_Countdown_rewrite" class="step" data-rel-x="0" data-rel-y="-80" data-scale="0.1">
+		<h1>Coutdown umschreiben</h1>
+		<img class="responsive lazyload" src="img/inverting_number_text.PNG" alt="Inverting number"style="max-width:100%; height:auto;"/>
+		<img class="responsive lazyload" src="img/iverting_number_picture.PNG" alt="Inverting number picture"style="max-width:60%; height:auto;"/>
+		<div class="img-title">
+		</div>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown">
+				makecode.microbit.org
+			</a>
+		</div>
+		<aside class="notes">
+		</aside>
+	</section>
+
+	<section id="Projekt_Countdown_print_go" class="step" data-rel-x="0" data-rel-y="155" data-scale="0.1">
+		<h1>,,LOS" anzeigen</h1>
+		<img class="responsive lazyload" src="img/printing_go.PNG" alt="Print go"style="max-width:100%; height:auto;"/>
+		<img class="responsive lazyload" src="img/printing_go_picture.PNG" alt="Print go picture"style="max-width:60%; height:auto;"/>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown">
+				makecode.microbit.org</a>
+		</div>
+		<aside class="notes">
+		</aside>
+	</section>
+
+	<section id="Projekt_Countown_sound" class="step" data-rel-x="1200" data-rel-y="1200" data-scale="1">
+
+		<img class="responsive lazyload" src="img/girl-singing.jpg" alt="Add sound"/>
+		<div class="img-title"><h1>4. Schritt: Geräusch hinzufügen</h1></div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/m%C3%A4dchen-halten-karaoke-mikrofon-15754">
+				pixabay.com</a>,Creative Commons CC0
+		</div>
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Countdown_add_noise" class="step" data-rel-x="-10" data-rel-y="0" data-scale="0.03">
+		<h1>Los Geräusch hinzufügen</h1>
+		<img class="responsive lazyload" src="img/adding_go_noise.PNG" alt="Add go sound"/>
+		<img class="responsive lazyload" src="img/adding_go_noise_picture.PNG" alt="Add go sound picture" style="max-width:50%; height:auto;"/>
+		<div class="img-title">
+		</div>
+		<div class="img-source">
+			<a href="https://makecode.microbit.org/projects/v2-countdown"></a>
+		</div>
+		<aside class="notes">
+		</aside>
+	</section>
+
+
+
+
+	<section id="Projekt_Best_Friends" class="step" data-rel-x="-2000" data-rel-y="2000" data-scale="1">
+
+		<img class="responsive lazyload" src="img/best friends.jpg" alt="Best friends picture"/>
+		<div class="img-title"><h1>Best Friends</h1></div>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/jung-m%C3%A4dchen-beste-freunde-2197492/">
+				pixabay.com</a>
+		</div>
+		<aside class="notes">
+		</aside>
+
+	</section>
+	<section id="Projekt_Best_Friends1" class="step" data-rel-x="0" data-rel-y="2000" data-scale="0.3">
+		<img class="responsive lazyload" src="img/best_friends1.jpg" alt="Best Friends 1"/>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+	<section id="Projekt_Best_Friends2" class="step" data-rel-x="0" data-rel-y="2000" data-scale="0.3">
+		<img class="responsive lazyload" src="img/best_friends_2.jpg" alt="Best Friends 2"/>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+
+	<section id="Projekt_Best_Friends_Ausprobieren" class="step" data-rel-x="0" data-rel-y="15000" data-scale="1"
+			 data-next-impress="projekte.html">
+		<img class="responsive lazyload" data-src="img/girl-smiling.jpg"/>
+		<h1 class="img-title">Ausprobieren
+			<i class="em em-muscle"></i>
+		</h1>
+		<div class="img-source">
+			<a href="https://pixabay.com/de/photos/junge-frau-frau-l%C3%A4cheln-sch%C3%B6nheit-1722402/"> pixabay.com</a>, Creative
+			Commons CC0
+		</div>
+
+		<a href="projekte.html" style="position: absolute; bottom:5rem;right: 2rem;">
+			<i class="em em-arrow_forward"></i>
+		</a>
+
+		<aside class="notes">
+		</aside>
+
+	</section>
+
+
+
+
+	<section id="Overview" class="step" data-x="3000" data-y="3500" data-scale="10"
+			 style="pointer-events: none;">
+		<p></p>
+	</section>
+</div>
+
+<div id="impress-toolbar"></div>
+
+<div class="impress-progressbar">
+	<div></div>
+</div>
+<!--<div class="impress-progress"></div>-->
+
+<div id="impress-help"></div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/lazyload.min.js"></script>
+<script type="text/javascript" src="./js/impress.js"></script>
+<script type="text/javascript" src="./js/impress-loadnext.js"></script>
+<script type="text/javascript" src="./js/jquery.makecode-blocks.js"></script>
+
+<script>
+	$(document).ready(function () {
+		impress().init();
+		$("code.js-blocks").blocks();
+		$("img.lazyload").lazyload();
+	});
+
+</script>
+
+</body>
 
 </html>
