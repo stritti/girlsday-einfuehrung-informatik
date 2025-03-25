@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="adjust content for 2023" />
+    <list default="true" id="cc1e74ed-88b4-40ec-85a4-da949c1fce90" name="Changes" comment="Updated readme">
+      <change afterPath="$PROJECT_DIR$/src/img/Shahd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/heart-rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/heartrate-hg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/heartrate-solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/projects/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/presentation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/presentation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/develop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/develop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/projekte.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +28,41 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShahdLala66&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stritti/girlsday-einfuehrung-informatik.git&quot;,
+    &quot;accountId&quot;: &quot;46c35a68-dbb3-4220-a440-30ea3695f7d3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="28I3txtPrnYcfpFI0cr1aaWa5xv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/projects" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#32 on 2025&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sla/IdeaProjects/girlsday-einfuehrung-informatik-/src/img&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sla\IdeaProjects\girlsday-einfuehrung-informatik-\src\img" />
+      <recent name="C:\Users\sla\IdeaProjects\girlsday-einfuehrung-informatik-\src\img\projects" />
       <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img\projects" />
       <recent name="C:\Projects\girlsday-einfuehrung-informatik\src\img" />
     </key>
@@ -69,7 +101,63 @@
       <option name="project" value="LOCAL" />
       <updated>1681998861740</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added new slides and updated slides for 2025">
+      <option name="closed" value="true" />
+      <created>1741792170926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741792170926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added new slides and adjusted slides for 2025">
+      <option name="closed" value="true" />
+      <created>1741928686869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741928686869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added new slides and adjusted slides for 2025">
+      <option name="closed" value="true" />
+      <created>1741928784598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741928784598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added new slides and adjusted slides for 2025">
+      <option name="closed" value="true" />
+      <created>1741928903547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741928903547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added new slides and adjusted slides for 2025">
+      <option name="closed" value="true" />
+      <created>1741929169395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741929169395</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated logo">
+      <option name="closed" value="true" />
+      <created>1741965912200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741965912200</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated readme">
+      <option name="closed" value="true" />
+      <created>1741965939322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741965939322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,11 +173,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="adjust content for 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust content for 2023" />
+    <MESSAGE value="Added new slides and updated slides for 2025" />
+    <MESSAGE value="Added new slides and adjusted slides for 2025" />
+    <MESSAGE value="Updated logo" />
+    <MESSAGE value="Updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
   </component>
 </project>
