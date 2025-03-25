@@ -323,6 +323,9 @@ img.watermark {
 	right: 2rem;
 	top: 2rem;
 	transition: opacity 2s;
+	height: 5%;
+	width:5%;
+
 }
 /****************** Background images **********************************************/
 
